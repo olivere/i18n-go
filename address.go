@@ -20,7 +20,7 @@ type Address struct {
 func (a *Address) FormattedParts() []string {
 	rule, found := formatRules[strings.ToUpper(a.Country)]
 	if !found {
-		rule, _ = formatRules["DE"]
+		rule = formatRules["DE"]
 	}
 	return a.formatWithRule(rule)
 }
@@ -36,14 +36,14 @@ func (a *Address) formatWithRule(r []string) []string {
 		s = strings.Replace(s, "{PostalCode}", a.PostalCode, -1)
 		s = strings.Replace(s, "{Locality}", a.Locality, -1)
 		s = strings.Replace(s, "{Region}", a.Region, -1)
-		if strings.Index(s, "{-Region}") >= 0 {
+		if strings.Contains(s, "{-Region}") {
 			if a.Region != "" {
 				s = strings.Replace(s, "{-Region}", "-"+a.Region, -1)
 			} else {
 				s = strings.Replace(s, "{-Region}", "", -1)
 			}
 		}
-		if strings.Index(s, "{, Region}") >= 0 {
+		if strings.Contains(s, "{, Region}") {
 			if a.Region != "" {
 				s = strings.Replace(s, "{, Region}", ", "+a.Region, -1)
 			} else {

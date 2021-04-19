@@ -235,7 +235,7 @@ func (m *Money) Format(locale string) string {
 		}
 	}
 	var wholeBuf bytes.Buffer
-	for i, _ := range groups {
+	for i := range groups {
 		if i > 0 {
 			wholeBuf.WriteString(l.CurrencyGroupSeparator)
 		}

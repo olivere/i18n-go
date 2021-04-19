@@ -1,7 +1,7 @@
 package i18n
 
 var Locales = map[string]*Locale{
-	"af_ZA": &Locale{
+	"af_ZA": {
 		Code:                     "af_ZA",
 		Language:                 "af",
 		LanguageISO3:             "afr",
@@ -26,7 +26,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ",",
 		NumberNegativePattern:    "-n",
 	},
-	"am_ET": &Locale{
+	"am_ET": {
 		Code:                     "am_ET",
 		Language:                 "am",
 		LanguageISO3:             "amh",
@@ -51,7 +51,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ",",
 		NumberNegativePattern:    "-n",
 	},
-	"ar_AE": &Locale{
+	"ar_AE": {
 		Code:                     "ar_AE",
 		Language:                 "ar",
 		LanguageISO3:             "ara",
@@ -76,7 +76,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ",",
 		NumberNegativePattern:    "n-",
 	},
-	"ar_BH": &Locale{
+	"ar_BH": {
 		Code:                     "ar_BH",
 		Language:                 "ar",
 		LanguageISO3:             "ara",
@@ -101,7 +101,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ",",
 		NumberNegativePattern:    "n-",
 	},
-	"ar_DZ": &Locale{
+	"ar_DZ": {
 		Code:                     "ar_DZ",
 		Language:                 "ar",
 		LanguageISO3:             "ara",
@@ -126,7 +126,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ",",
 		NumberNegativePattern:    "n-",
 	},
-	"ar_EG": &Locale{
+	"ar_EG": {
 		Code:                     "ar_EG",
 		Language:                 "ar",
 		LanguageISO3:             "ara",
@@ -151,7 +151,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ",",
 		NumberNegativePattern:    "n-",
 	},
-	"ar_IQ": &Locale{
+	"ar_IQ": {
 		Code:                     "ar_IQ",
 		Language:                 "ar",
 		LanguageISO3:             "ara",
@@ -176,7 +176,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ",",
 		NumberNegativePattern:    "n-",
 	},
-	"ar_JO": &Locale{
+	"ar_JO": {
 		Code:                     "ar_JO",
 		Language:                 "ar",
 		LanguageISO3:             "ara",
@@ -201,7 +201,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ",",
 		NumberNegativePattern:    "n-",
 	},
-	"ar_KW": &Locale{
+	"ar_KW": {
 		Code:                     "ar_KW",
 		Language:                 "ar",
 		LanguageISO3:             "ara",
@@ -226,7 +226,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ",",
 		NumberNegativePattern:    "n-",
 	},
-	"ar_LB": &Locale{
+	"ar_LB": {
 		Code:                     "ar_LB",
 		Language:                 "ar",
 		LanguageISO3:             "ara",
@@ -251,7 +251,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ",",
 		NumberNegativePattern:    "n-",
 	},
-	"ar_LY": &Locale{
+	"ar_LY": {
 		Code:                     "ar_LY",
 		Language:                 "ar",
 		LanguageISO3:             "ara",
@@ -276,7 +276,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ",",
 		NumberNegativePattern:    "n-",
 	},
-	"ar_MA": &Locale{
+	"ar_MA": {
 		Code:                     "ar_MA",
 		Language:                 "ar",
 		LanguageISO3:             "ara",
@@ -301,7 +301,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ",",
 		NumberNegativePattern:    "n-",
 	},
-	"ar_OM": &Locale{
+	"ar_OM": {
 		Code:                     "ar_OM",
 		Language:                 "ar",
 		LanguageISO3:             "ara",
@@ -326,7 +326,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ",",
 		NumberNegativePattern:    "n-",
 	},
-	"ar_QA": &Locale{
+	"ar_QA": {
 		Code:                     "ar_QA",
 		Language:                 "ar",
 		LanguageISO3:             "ara",
@@ -351,7 +351,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ",",
 		NumberNegativePattern:    "n-",
 	},
-	"ar_SA": &Locale{
+	"ar_SA": {
 		Code:                     "ar_SA",
 		Language:                 "ar",
 		LanguageISO3:             "ara",
@@ -376,7 +376,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ",",
 		NumberNegativePattern:    "n-",
 	},
-	"ar_SY": &Locale{
+	"ar_SY": {
 		Code:                     "ar_SY",
 		Language:                 "ar",
 		LanguageISO3:             "ara",
@@ -401,7 +401,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ",",
 		NumberNegativePattern:    "n-",
 	},
-	"ar_TN": &Locale{
+	"ar_TN": {
 		Code:                     "ar_TN",
 		Language:                 "ar",
 		LanguageISO3:             "ara",
@@ -426,7 +426,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ",",
 		NumberNegativePattern:    "n-",
 	},
-	"ar_YE": &Locale{
+	"ar_YE": {
 		Code:                     "ar_YE",
 		Language:                 "ar",
 		LanguageISO3:             "ara",
@@ -451,7 +451,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ",",
 		NumberNegativePattern:    "n-",
 	},
-	"arn_CL": &Locale{
+	"arn_CL": {
 		Code:                     "arn_CL",
 		Language:                 "arn",
 		LanguageISO3:             "arn",
@@ -476,7 +476,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ".",
 		NumberNegativePattern:    "-n",
 	},
-	"as_IN": &Locale{
+	"as_IN": {
 		Code:                     "as_IN",
 		Language:                 "as",
 		LanguageISO3:             "asm",
@@ -501,7 +501,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ",",
 		NumberNegativePattern:    "-n",
 	},
-	"az_Cyrl_AZ": &Locale{
+	"az_Cyrl_AZ": {
 		Code:                     "az_Cyrl_AZ",
 		Language:                 "az",
 		LanguageISO3:             "aze",
@@ -526,7 +526,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     " ",
 		NumberNegativePattern:    "-n",
 	},
-	"az_Latn_AZ": &Locale{
+	"az_Latn_AZ": {
 		Code:                     "az_Latn_AZ",
 		Language:                 "az",
 		LanguageISO3:             "aze",
@@ -551,7 +551,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     " ",
 		NumberNegativePattern:    "-n",
 	},
-	"ba_RU": &Locale{
+	"ba_RU": {
 		Code:                     "ba_RU",
 		Language:                 "ba",
 		LanguageISO3:             "bak",
@@ -576,7 +576,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     " ",
 		NumberNegativePattern:    "-n",
 	},
-	"be_BY": &Locale{
+	"be_BY": {
 		Code:                     "be_BY",
 		Language:                 "be",
 		LanguageISO3:             "bel",
@@ -601,7 +601,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     " ",
 		NumberNegativePattern:    "-n",
 	},
-	"bg_BG": &Locale{
+	"bg_BG": {
 		Code:                     "bg_BG",
 		Language:                 "bg",
 		LanguageISO3:             "bul",
@@ -626,7 +626,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     " ",
 		NumberNegativePattern:    "-n",
 	},
-	"bn_BD": &Locale{
+	"bn_BD": {
 		Code:                     "bn_BD",
 		Language:                 "bn",
 		LanguageISO3:             "bng",
@@ -651,7 +651,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ",",
 		NumberNegativePattern:    "-n",
 	},
-	"bn_IN": &Locale{
+	"bn_IN": {
 		Code:                     "bn_IN",
 		Language:                 "bn",
 		LanguageISO3:             "bng",
@@ -676,7 +676,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ",",
 		NumberNegativePattern:    "-n",
 	},
-	"bo_CN": &Locale{
+	"bo_CN": {
 		Code:                     "bo_CN",
 		Language:                 "bo",
 		LanguageISO3:             "bod",
@@ -701,7 +701,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ",",
 		NumberNegativePattern:    "-n",
 	},
-	"br_FR": &Locale{
+	"br_FR": {
 		Code:                     "br_FR",
 		Language:                 "br",
 		LanguageISO3:             "bre",
@@ -726,7 +726,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     " ",
 		NumberNegativePattern:    "-n",
 	},
-	"bs_Cyrl_BA": &Locale{
+	"bs_Cyrl_BA": {
 		Code:                     "bs_Cyrl_BA",
 		Language:                 "bs",
 		LanguageISO3:             "bsc",
@@ -751,7 +751,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ".",
 		NumberNegativePattern:    "-n",
 	},
-	"bs_Latn_BA": &Locale{
+	"bs_Latn_BA": {
 		Code:                     "bs_Latn_BA",
 		Language:                 "bs",
 		LanguageISO3:             "bsb",
@@ -776,7 +776,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ".",
 		NumberNegativePattern:    "-n",
 	},
-	"ca_ES": &Locale{
+	"ca_ES": {
 		Code:                     "ca_ES",
 		Language:                 "ca",
 		LanguageISO3:             "cat",
@@ -801,7 +801,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ".",
 		NumberNegativePattern:    "-n",
 	},
-	"co_FR": &Locale{
+	"co_FR": {
 		Code:                     "co_FR",
 		Language:                 "co",
 		LanguageISO3:             "cos",
@@ -826,7 +826,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     " ",
 		NumberNegativePattern:    "-n",
 	},
-	"cs_CZ": &Locale{
+	"cs_CZ": {
 		Code:                     "cs_CZ",
 		Language:                 "cs",
 		LanguageISO3:             "ces",
@@ -851,7 +851,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     " ",
 		NumberNegativePattern:    "-n",
 	},
-	"cy_GB": &Locale{
+	"cy_GB": {
 		Code:                     "cy_GB",
 		Language:                 "cy",
 		LanguageISO3:             "cym",
@@ -876,7 +876,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ",",
 		NumberNegativePattern:    "-n",
 	},
-	"da_DK": &Locale{
+	"da_DK": {
 		Code:                     "da_DK",
 		Language:                 "da",
 		LanguageISO3:             "dan",
@@ -901,7 +901,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ".",
 		NumberNegativePattern:    "-n",
 	},
-	"de_AT": &Locale{
+	"de_AT": {
 		Code:                     "de_AT",
 		Language:                 "de",
 		LanguageISO3:             "deu",
@@ -926,7 +926,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ".",
 		NumberNegativePattern:    "-n",
 	},
-	"de_CH": &Locale{
+	"de_CH": {
 		Code:                     "de_CH",
 		Language:                 "de",
 		LanguageISO3:             "deu",
@@ -951,7 +951,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     "'",
 		NumberNegativePattern:    "-n",
 	},
-	"de_DE": &Locale{
+	"de_DE": {
 		Code:                     "de_DE",
 		Language:                 "de",
 		LanguageISO3:             "deu",
@@ -976,7 +976,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ".",
 		NumberNegativePattern:    "-n",
 	},
-	"de_LI": &Locale{
+	"de_LI": {
 		Code:                     "de_LI",
 		Language:                 "de",
 		LanguageISO3:             "deu",
@@ -1001,7 +1001,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     "'",
 		NumberNegativePattern:    "-n",
 	},
-	"de_LU": &Locale{
+	"de_LU": {
 		Code:                     "de_LU",
 		Language:                 "de",
 		LanguageISO3:             "deu",
@@ -1026,7 +1026,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ".",
 		NumberNegativePattern:    "-n",
 	},
-	"dsb_DE": &Locale{
+	"dsb_DE": {
 		Code:                     "dsb_DE",
 		Language:                 "dsb",
 		LanguageISO3:             "dsb",
@@ -1051,7 +1051,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ".",
 		NumberNegativePattern:    "-n",
 	},
-	"dv_MV": &Locale{
+	"dv_MV": {
 		Code:                     "dv_MV",
 		Language:                 "dv",
 		LanguageISO3:             "div",
@@ -1076,7 +1076,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ",",
 		NumberNegativePattern:    "-n",
 	},
-	"el_GR": &Locale{
+	"el_GR": {
 		Code:                     "el_GR",
 		Language:                 "el",
 		LanguageISO3:             "ell",
@@ -1101,7 +1101,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ".",
 		NumberNegativePattern:    "-n",
 	},
-	"en_029": &Locale{
+	"en_029": {
 		Code:                     "en_029",
 		Language:                 "en",
 		LanguageISO3:             "eng",
@@ -1126,7 +1126,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ",",
 		NumberNegativePattern:    "-n",
 	},
-	"en_AU": &Locale{
+	"en_AU": {
 		Code:                     "en_AU",
 		Language:                 "en",
 		LanguageISO3:             "eng",
@@ -1151,7 +1151,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ",",
 		NumberNegativePattern:    "-n",
 	},
-	"en_BZ": &Locale{
+	"en_BZ": {
 		Code:                     "en_BZ",
 		Language:                 "en",
 		LanguageISO3:             "eng",
@@ -1176,7 +1176,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ",",
 		NumberNegativePattern:    "-n",
 	},
-	"en_CA": &Locale{
+	"en_CA": {
 		Code:                     "en_CA",
 		Language:                 "en",
 		LanguageISO3:             "eng",
@@ -1201,7 +1201,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ",",
 		NumberNegativePattern:    "-n",
 	},
-	"en_GB": &Locale{
+	"en_GB": {
 		Code:                     "en_GB",
 		Language:                 "en",
 		LanguageISO3:             "eng",
@@ -1226,7 +1226,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ",",
 		NumberNegativePattern:    "-n",
 	},
-	"en_IE": &Locale{
+	"en_IE": {
 		Code:                     "en_IE",
 		Language:                 "en",
 		LanguageISO3:             "eng",
@@ -1251,7 +1251,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ",",
 		NumberNegativePattern:    "-n",
 	},
-	"en_IN": &Locale{
+	"en_IN": {
 		Code:                     "en_IN",
 		Language:                 "en",
 		LanguageISO3:             "eng",
@@ -1276,7 +1276,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ",",
 		NumberNegativePattern:    "-n",
 	},
-	"en_JM": &Locale{
+	"en_JM": {
 		Code:                     "en_JM",
 		Language:                 "en",
 		LanguageISO3:             "eng",
@@ -1301,7 +1301,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ",",
 		NumberNegativePattern:    "-n",
 	},
-	"en_MY": &Locale{
+	"en_MY": {
 		Code:                     "en_MY",
 		Language:                 "en",
 		LanguageISO3:             "eng",
@@ -1326,7 +1326,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ",",
 		NumberNegativePattern:    "-n",
 	},
-	"en_NZ": &Locale{
+	"en_NZ": {
 		Code:                     "en_NZ",
 		Language:                 "en",
 		LanguageISO3:             "eng",
@@ -1351,7 +1351,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ",",
 		NumberNegativePattern:    "-n",
 	},
-	"en_PH": &Locale{
+	"en_PH": {
 		Code:                     "en_PH",
 		Language:                 "en",
 		LanguageISO3:             "eng",
@@ -1376,7 +1376,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ",",
 		NumberNegativePattern:    "-n",
 	},
-	"en_SG": &Locale{
+	"en_SG": {
 		Code:                     "en_SG",
 		Language:                 "en",
 		LanguageISO3:             "eng",
@@ -1401,7 +1401,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ",",
 		NumberNegativePattern:    "-n",
 	},
-	"en_TT": &Locale{
+	"en_TT": {
 		Code:                     "en_TT",
 		Language:                 "en",
 		LanguageISO3:             "eng",
@@ -1426,7 +1426,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ",",
 		NumberNegativePattern:    "-n",
 	},
-	"en_US": &Locale{
+	"en_US": {
 		Code:                     "en_US",
 		Language:                 "en",
 		LanguageISO3:             "eng",
@@ -1451,7 +1451,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ",",
 		NumberNegativePattern:    "-n",
 	},
-	"en_ZA": &Locale{
+	"en_ZA": {
 		Code:                     "en_ZA",
 		Language:                 "en",
 		LanguageISO3:             "eng",
@@ -1476,7 +1476,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     " ",
 		NumberNegativePattern:    "-n",
 	},
-	"en_ZW": &Locale{
+	"en_ZW": {
 		Code:                     "en_ZW",
 		Language:                 "en",
 		LanguageISO3:             "eng",
@@ -1501,7 +1501,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ",",
 		NumberNegativePattern:    "-n",
 	},
-	"es_AR": &Locale{
+	"es_AR": {
 		Code:                     "es_AR",
 		Language:                 "es",
 		LanguageISO3:             "spa",
@@ -1526,7 +1526,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ".",
 		NumberNegativePattern:    "-n",
 	},
-	"es_BO": &Locale{
+	"es_BO": {
 		Code:                     "es_BO",
 		Language:                 "es",
 		LanguageISO3:             "spa",
@@ -1551,7 +1551,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ".",
 		NumberNegativePattern:    "-n",
 	},
-	"es_CL": &Locale{
+	"es_CL": {
 		Code:                     "es_CL",
 		Language:                 "es",
 		LanguageISO3:             "spa",
@@ -1576,7 +1576,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ".",
 		NumberNegativePattern:    "-n",
 	},
-	"es_CO": &Locale{
+	"es_CO": {
 		Code:                     "es_CO",
 		Language:                 "es",
 		LanguageISO3:             "spa",
@@ -1601,7 +1601,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ".",
 		NumberNegativePattern:    "-n",
 	},
-	"es_CR": &Locale{
+	"es_CR": {
 		Code:                     "es_CR",
 		Language:                 "es",
 		LanguageISO3:             "spa",
@@ -1626,7 +1626,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ".",
 		NumberNegativePattern:    "-n",
 	},
-	"es_DO": &Locale{
+	"es_DO": {
 		Code:                     "es_DO",
 		Language:                 "es",
 		LanguageISO3:             "spa",
@@ -1651,7 +1651,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ",",
 		NumberNegativePattern:    "-n",
 	},
-	"es_EC": &Locale{
+	"es_EC": {
 		Code:                     "es_EC",
 		Language:                 "es",
 		LanguageISO3:             "spa",
@@ -1676,7 +1676,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ".",
 		NumberNegativePattern:    "-n",
 	},
-	"es_ES": &Locale{
+	"es_ES": {
 		Code:                     "es_ES",
 		Language:                 "es",
 		LanguageISO3:             "spa",
@@ -1701,7 +1701,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ".",
 		NumberNegativePattern:    "-n",
 	},
-	"es_GT": &Locale{
+	"es_GT": {
 		Code:                     "es_GT",
 		Language:                 "es",
 		LanguageISO3:             "spa",
@@ -1726,7 +1726,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ",",
 		NumberNegativePattern:    "-n",
 	},
-	"es_HN": &Locale{
+	"es_HN": {
 		Code:                     "es_HN",
 		Language:                 "es",
 		LanguageISO3:             "spa",
@@ -1751,7 +1751,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ",",
 		NumberNegativePattern:    "-n",
 	},
-	"es_MX": &Locale{
+	"es_MX": {
 		Code:                     "es_MX",
 		Language:                 "es",
 		LanguageISO3:             "spa",
@@ -1776,7 +1776,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ",",
 		NumberNegativePattern:    "-n",
 	},
-	"es_NI": &Locale{
+	"es_NI": {
 		Code:                     "es_NI",
 		Language:                 "es",
 		LanguageISO3:             "spa",
@@ -1801,7 +1801,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ",",
 		NumberNegativePattern:    "-n",
 	},
-	"es_PA": &Locale{
+	"es_PA": {
 		Code:                     "es_PA",
 		Language:                 "es",
 		LanguageISO3:             "spa",
@@ -1826,7 +1826,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ",",
 		NumberNegativePattern:    "-n",
 	},
-	"es_PE": &Locale{
+	"es_PE": {
 		Code:                     "es_PE",
 		Language:                 "es",
 		LanguageISO3:             "spa",
@@ -1851,7 +1851,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ",",
 		NumberNegativePattern:    "-n",
 	},
-	"es_PR": &Locale{
+	"es_PR": {
 		Code:                     "es_PR",
 		Language:                 "es",
 		LanguageISO3:             "spa",
@@ -1876,7 +1876,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ",",
 		NumberNegativePattern:    "-n",
 	},
-	"es_PY": &Locale{
+	"es_PY": {
 		Code:                     "es_PY",
 		Language:                 "es",
 		LanguageISO3:             "spa",
@@ -1901,7 +1901,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ".",
 		NumberNegativePattern:    "-n",
 	},
-	"es_SV": &Locale{
+	"es_SV": {
 		Code:                     "es_SV",
 		Language:                 "es",
 		LanguageISO3:             "spa",
@@ -1926,7 +1926,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ",",
 		NumberNegativePattern:    "-n",
 	},
-	"es_US": &Locale{
+	"es_US": {
 		Code:                     "es_US",
 		Language:                 "es",
 		LanguageISO3:             "spa",
@@ -1951,7 +1951,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ",",
 		NumberNegativePattern:    "-n",
 	},
-	"es_UY": &Locale{
+	"es_UY": {
 		Code:                     "es_UY",
 		Language:                 "es",
 		LanguageISO3:             "spa",
@@ -1976,7 +1976,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ".",
 		NumberNegativePattern:    "-n",
 	},
-	"es_VE": &Locale{
+	"es_VE": {
 		Code:                     "es_VE",
 		Language:                 "es",
 		LanguageISO3:             "spa",
@@ -2001,7 +2001,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ".",
 		NumberNegativePattern:    "-n",
 	},
-	"et_EE": &Locale{
+	"et_EE": {
 		Code:                     "et_EE",
 		Language:                 "et",
 		LanguageISO3:             "est",
@@ -2026,7 +2026,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     " ",
 		NumberNegativePattern:    "-n",
 	},
-	"eu_ES": &Locale{
+	"eu_ES": {
 		Code:                     "eu_ES",
 		Language:                 "eu",
 		LanguageISO3:             "eus",
@@ -2051,7 +2051,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ".",
 		NumberNegativePattern:    "-n",
 	},
-	"fa_IR": &Locale{
+	"fa_IR": {
 		Code:                     "fa_IR",
 		Language:                 "fa",
 		LanguageISO3:             "fas",
@@ -2076,7 +2076,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ",",
 		NumberNegativePattern:    "n-",
 	},
-	"fi_FI": &Locale{
+	"fi_FI": {
 		Code:                     "fi_FI",
 		Language:                 "fi",
 		LanguageISO3:             "fin",
@@ -2101,7 +2101,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     " ",
 		NumberNegativePattern:    "-n",
 	},
-	"fil_PH": &Locale{
+	"fil_PH": {
 		Code:                     "fil_PH",
 		Language:                 "fil",
 		LanguageISO3:             "fil",
@@ -2126,7 +2126,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ",",
 		NumberNegativePattern:    "-n",
 	},
-	"fo_FO": &Locale{
+	"fo_FO": {
 		Code:                     "fo_FO",
 		Language:                 "fo",
 		LanguageISO3:             "fao",
@@ -2151,7 +2151,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ".",
 		NumberNegativePattern:    "-n",
 	},
-	"fr_BE": &Locale{
+	"fr_BE": {
 		Code:                     "fr_BE",
 		Language:                 "fr",
 		LanguageISO3:             "fra",
@@ -2176,7 +2176,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ".",
 		NumberNegativePattern:    "-n",
 	},
-	"fr_CA": &Locale{
+	"fr_CA": {
 		Code:                     "fr_CA",
 		Language:                 "fr",
 		LanguageISO3:             "fra",
@@ -2201,7 +2201,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     " ",
 		NumberNegativePattern:    "-n",
 	},
-	"fr_CH": &Locale{
+	"fr_CH": {
 		Code:                     "fr_CH",
 		Language:                 "fr",
 		LanguageISO3:             "fra",
@@ -2226,7 +2226,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     "'",
 		NumberNegativePattern:    "-n",
 	},
-	"fr_FR": &Locale{
+	"fr_FR": {
 		Code:                     "fr_FR",
 		Language:                 "fr",
 		LanguageISO3:             "fra",
@@ -2251,7 +2251,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     " ",
 		NumberNegativePattern:    "-n",
 	},
-	"fr_LU": &Locale{
+	"fr_LU": {
 		Code:                     "fr_LU",
 		Language:                 "fr",
 		LanguageISO3:             "fra",
@@ -2276,7 +2276,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     " ",
 		NumberNegativePattern:    "-n",
 	},
-	"fr_MC": &Locale{
+	"fr_MC": {
 		Code:                     "fr_MC",
 		Language:                 "fr",
 		LanguageISO3:             "fra",
@@ -2301,7 +2301,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     " ",
 		NumberNegativePattern:    "-n",
 	},
-	"fy_NL": &Locale{
+	"fy_NL": {
 		Code:                     "fy_NL",
 		Language:                 "fy",
 		LanguageISO3:             "fry",
@@ -2326,7 +2326,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ".",
 		NumberNegativePattern:    "-n",
 	},
-	"ga_IE": &Locale{
+	"ga_IE": {
 		Code:                     "ga_IE",
 		Language:                 "ga",
 		LanguageISO3:             "gle",
@@ -2351,7 +2351,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ",",
 		NumberNegativePattern:    "-n",
 	},
-	"gd_GB": &Locale{
+	"gd_GB": {
 		Code:                     "gd_GB",
 		Language:                 "gd",
 		LanguageISO3:             "gla",
@@ -2376,7 +2376,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ",",
 		NumberNegativePattern:    "-n",
 	},
-	"gl_ES": &Locale{
+	"gl_ES": {
 		Code:                     "gl_ES",
 		Language:                 "gl",
 		LanguageISO3:             "glg",
@@ -2401,7 +2401,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ".",
 		NumberNegativePattern:    "-n",
 	},
-	"gsw_FR": &Locale{
+	"gsw_FR": {
 		Code:                     "gsw_FR",
 		Language:                 "gsw",
 		LanguageISO3:             "gsw",
@@ -2426,7 +2426,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     " ",
 		NumberNegativePattern:    "-n",
 	},
-	"gu_IN": &Locale{
+	"gu_IN": {
 		Code:                     "gu_IN",
 		Language:                 "gu",
 		LanguageISO3:             "guj",
@@ -2451,7 +2451,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ",",
 		NumberNegativePattern:    "-n",
 	},
-	"ha_Latn_NG": &Locale{
+	"ha_Latn_NG": {
 		Code:                     "ha_Latn_NG",
 		Language:                 "ha",
 		LanguageISO3:             "hau",
@@ -2476,7 +2476,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ",",
 		NumberNegativePattern:    "-n",
 	},
-	"he_IL": &Locale{
+	"he_IL": {
 		Code:                     "he_IL",
 		Language:                 "he",
 		LanguageISO3:             "heb",
@@ -2501,7 +2501,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ",",
 		NumberNegativePattern:    "-n",
 	},
-	"hi_IN": &Locale{
+	"hi_IN": {
 		Code:                     "hi_IN",
 		Language:                 "hi",
 		LanguageISO3:             "hin",
@@ -2526,7 +2526,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ",",
 		NumberNegativePattern:    "-n",
 	},
-	"hr_BA": &Locale{
+	"hr_BA": {
 		Code:                     "hr_BA",
 		Language:                 "hr",
 		LanguageISO3:             "hrb",
@@ -2551,7 +2551,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ".",
 		NumberNegativePattern:    "- n",
 	},
-	"hr_HR": &Locale{
+	"hr_HR": {
 		Code:                     "hr_HR",
 		Language:                 "hr",
 		LanguageISO3:             "hrv",
@@ -2576,7 +2576,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ".",
 		NumberNegativePattern:    "- n",
 	},
-	"hsb_DE": &Locale{
+	"hsb_DE": {
 		Code:                     "hsb_DE",
 		Language:                 "hsb",
 		LanguageISO3:             "hsb",
@@ -2601,7 +2601,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ".",
 		NumberNegativePattern:    "-n",
 	},
-	"hu_HU": &Locale{
+	"hu_HU": {
 		Code:                     "hu_HU",
 		Language:                 "hu",
 		LanguageISO3:             "hun",
@@ -2626,7 +2626,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     " ",
 		NumberNegativePattern:    "-n",
 	},
-	"hy_AM": &Locale{
+	"hy_AM": {
 		Code:                     "hy_AM",
 		Language:                 "hy",
 		LanguageISO3:             "hye",
@@ -2651,7 +2651,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ",",
 		NumberNegativePattern:    "-n",
 	},
-	"id_ID": &Locale{
+	"id_ID": {
 		Code:                     "id_ID",
 		Language:                 "id",
 		LanguageISO3:             "ind",
@@ -2676,7 +2676,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ".",
 		NumberNegativePattern:    "-n",
 	},
-	"ig_NG": &Locale{
+	"ig_NG": {
 		Code:                     "ig_NG",
 		Language:                 "ig",
 		LanguageISO3:             "ibo",
@@ -2701,7 +2701,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ",",
 		NumberNegativePattern:    "-n",
 	},
-	"ii_CN": &Locale{
+	"ii_CN": {
 		Code:                     "ii_CN",
 		Language:                 "ii",
 		LanguageISO3:             "iii",
@@ -2726,7 +2726,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ",",
 		NumberNegativePattern:    "-n",
 	},
-	"is_IS": &Locale{
+	"is_IS": {
 		Code:                     "is_IS",
 		Language:                 "is",
 		LanguageISO3:             "isl",
@@ -2751,7 +2751,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ".",
 		NumberNegativePattern:    "-n",
 	},
-	"it_CH": &Locale{
+	"it_CH": {
 		Code:                     "it_CH",
 		Language:                 "it",
 		LanguageISO3:             "ita",
@@ -2776,7 +2776,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     "'",
 		NumberNegativePattern:    "-n",
 	},
-	"it_IT": &Locale{
+	"it_IT": {
 		Code:                     "it_IT",
 		Language:                 "it",
 		LanguageISO3:             "ita",
@@ -2801,7 +2801,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ".",
 		NumberNegativePattern:    "-n",
 	},
-	"iu_Cans_CA": &Locale{
+	"iu_Cans_CA": {
 		Code:                     "iu_Cans_CA",
 		Language:                 "iu",
 		LanguageISO3:             "iku",
@@ -2826,7 +2826,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ",",
 		NumberNegativePattern:    "-n",
 	},
-	"iu_Latn_CA": &Locale{
+	"iu_Latn_CA": {
 		Code:                     "iu_Latn_CA",
 		Language:                 "iu",
 		LanguageISO3:             "iku",
@@ -2851,7 +2851,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ",",
 		NumberNegativePattern:    "-n",
 	},
-	"ja_JP": &Locale{
+	"ja_JP": {
 		Code:                     "ja_JP",
 		Language:                 "ja",
 		LanguageISO3:             "jpn",
@@ -2876,7 +2876,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ",",
 		NumberNegativePattern:    "-n",
 	},
-	"ka_GE": &Locale{
+	"ka_GE": {
 		Code:                     "ka_GE",
 		Language:                 "ka",
 		LanguageISO3:             "kat",
@@ -2901,7 +2901,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     " ",
 		NumberNegativePattern:    "-n",
 	},
-	"kk_KZ": &Locale{
+	"kk_KZ": {
 		Code:                     "kk_KZ",
 		Language:                 "kk",
 		LanguageISO3:             "kaz",
@@ -2926,7 +2926,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     " ",
 		NumberNegativePattern:    "-n",
 	},
-	"kl_GL": &Locale{
+	"kl_GL": {
 		Code:                     "kl_GL",
 		Language:                 "kl",
 		LanguageISO3:             "kal",
@@ -2951,7 +2951,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ".",
 		NumberNegativePattern:    "-n",
 	},
-	"km_KH": &Locale{
+	"km_KH": {
 		Code:                     "km_KH",
 		Language:                 "km",
 		LanguageISO3:             "khm",
@@ -2976,7 +2976,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ",",
 		NumberNegativePattern:    "- n",
 	},
-	"kn_IN": &Locale{
+	"kn_IN": {
 		Code:                     "kn_IN",
 		Language:                 "kn",
 		LanguageISO3:             "kan",
@@ -3001,7 +3001,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ",",
 		NumberNegativePattern:    "-n",
 	},
-	"ko_KR": &Locale{
+	"ko_KR": {
 		Code:                     "ko_KR",
 		Language:                 "ko",
 		LanguageISO3:             "kor",
@@ -3026,7 +3026,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ",",
 		NumberNegativePattern:    "-n",
 	},
-	"kok_IN": &Locale{
+	"kok_IN": {
 		Code:                     "kok_IN",
 		Language:                 "kok",
 		LanguageISO3:             "kok",
@@ -3051,7 +3051,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ",",
 		NumberNegativePattern:    "-n",
 	},
-	"ky_KG": &Locale{
+	"ky_KG": {
 		Code:                     "ky_KG",
 		Language:                 "ky",
 		LanguageISO3:             "kir",
@@ -3076,7 +3076,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     " ",
 		NumberNegativePattern:    "-n",
 	},
-	"lb_LU": &Locale{
+	"lb_LU": {
 		Code:                     "lb_LU",
 		Language:                 "lb",
 		LanguageISO3:             "ltz",
@@ -3101,7 +3101,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     " ",
 		NumberNegativePattern:    "-n",
 	},
-	"lo_LA": &Locale{
+	"lo_LA": {
 		Code:                     "lo_LA",
 		Language:                 "lo",
 		LanguageISO3:             "lao",
@@ -3126,7 +3126,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ",",
 		NumberNegativePattern:    "(n)",
 	},
-	"lt_LT": &Locale{
+	"lt_LT": {
 		Code:                     "lt_LT",
 		Language:                 "lt",
 		LanguageISO3:             "lit",
@@ -3151,7 +3151,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ".",
 		NumberNegativePattern:    "-n",
 	},
-	"lv_LV": &Locale{
+	"lv_LV": {
 		Code:                     "lv_LV",
 		Language:                 "lv",
 		LanguageISO3:             "lav",
@@ -3176,7 +3176,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     " ",
 		NumberNegativePattern:    "-n",
 	},
-	"mi_NZ": &Locale{
+	"mi_NZ": {
 		Code:                     "mi_NZ",
 		Language:                 "mi",
 		LanguageISO3:             "mri",
@@ -3201,7 +3201,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ",",
 		NumberNegativePattern:    "-n",
 	},
-	"mk_MK": &Locale{
+	"mk_MK": {
 		Code:                     "mk_MK",
 		Language:                 "mk",
 		LanguageISO3:             "mkd",
@@ -3226,7 +3226,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ".",
 		NumberNegativePattern:    "-n",
 	},
-	"ml_IN": &Locale{
+	"ml_IN": {
 		Code:                     "ml_IN",
 		Language:                 "ml",
 		LanguageISO3:             "mym",
@@ -3251,7 +3251,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ",",
 		NumberNegativePattern:    "-n",
 	},
-	"mn_MN": &Locale{
+	"mn_MN": {
 		Code:                     "mn_MN",
 		Language:                 "mn",
 		LanguageISO3:             "mon",
@@ -3276,7 +3276,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     " ",
 		NumberNegativePattern:    "-n",
 	},
-	"mn_Mong_CN": &Locale{
+	"mn_Mong_CN": {
 		Code:                     "mn_Mong_CN",
 		Language:                 "mn",
 		LanguageISO3:             "mon",
@@ -3301,7 +3301,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ",",
 		NumberNegativePattern:    "-n",
 	},
-	"moh_CA": &Locale{
+	"moh_CA": {
 		Code:                     "moh_CA",
 		Language:                 "moh",
 		LanguageISO3:             "moh",
@@ -3326,7 +3326,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ",",
 		NumberNegativePattern:    "-n",
 	},
-	"mr_IN": &Locale{
+	"mr_IN": {
 		Code:                     "mr_IN",
 		Language:                 "mr",
 		LanguageISO3:             "mar",
@@ -3351,7 +3351,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ",",
 		NumberNegativePattern:    "-n",
 	},
-	"ms_BN": &Locale{
+	"ms_BN": {
 		Code:                     "ms_BN",
 		Language:                 "ms",
 		LanguageISO3:             "msa",
@@ -3376,7 +3376,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ".",
 		NumberNegativePattern:    "-n",
 	},
-	"ms_MY": &Locale{
+	"ms_MY": {
 		Code:                     "ms_MY",
 		Language:                 "ms",
 		LanguageISO3:             "msa",
@@ -3401,7 +3401,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ",",
 		NumberNegativePattern:    "-n",
 	},
-	"mt_MT": &Locale{
+	"mt_MT": {
 		Code:                     "mt_MT",
 		Language:                 "mt",
 		LanguageISO3:             "mlt",
@@ -3426,7 +3426,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ",",
 		NumberNegativePattern:    "-n",
 	},
-	"nb_NO": &Locale{
+	"nb_NO": {
 		Code:                     "nb_NO",
 		Language:                 "nb",
 		LanguageISO3:             "nob",
@@ -3451,7 +3451,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     " ",
 		NumberNegativePattern:    "-n",
 	},
-	"ne_NP": &Locale{
+	"ne_NP": {
 		Code:                     "ne_NP",
 		Language:                 "ne",
 		LanguageISO3:             "nep",
@@ -3476,7 +3476,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ",",
 		NumberNegativePattern:    "-n",
 	},
-	"nl_BE": &Locale{
+	"nl_BE": {
 		Code:                     "nl_BE",
 		Language:                 "nl",
 		LanguageISO3:             "nld",
@@ -3501,7 +3501,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ".",
 		NumberNegativePattern:    "-n",
 	},
-	"nl_NL": &Locale{
+	"nl_NL": {
 		Code:                     "nl_NL",
 		Language:                 "nl",
 		LanguageISO3:             "nld",
@@ -3526,7 +3526,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ".",
 		NumberNegativePattern:    "-n",
 	},
-	"nn_NO": &Locale{
+	"nn_NO": {
 		Code:                     "nn_NO",
 		Language:                 "nn",
 		LanguageISO3:             "nno",
@@ -3551,7 +3551,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     " ",
 		NumberNegativePattern:    "-n",
 	},
-	"no_NO": &Locale{
+	"no_NO": {
 		Code:                     "no_NO",
 		Language:                 "no",
 		LanguageISO3:             "nor",
@@ -3576,7 +3576,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     " ",
 		NumberNegativePattern:    "-n",
 	},
-	"nso_ZA": &Locale{
+	"nso_ZA": {
 		Code:                     "nso_ZA",
 		Language:                 "nso",
 		LanguageISO3:             "nso",
@@ -3601,7 +3601,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ",",
 		NumberNegativePattern:    "-n",
 	},
-	"oc_FR": &Locale{
+	"oc_FR": {
 		Code:                     "oc_FR",
 		Language:                 "oc",
 		LanguageISO3:             "oci",
@@ -3626,7 +3626,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     " ",
 		NumberNegativePattern:    "-n",
 	},
-	"or_IN": &Locale{
+	"or_IN": {
 		Code:                     "or_IN",
 		Language:                 "or",
 		LanguageISO3:             "ori",
@@ -3651,7 +3651,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ",",
 		NumberNegativePattern:    "-n",
 	},
-	"pa_IN": &Locale{
+	"pa_IN": {
 		Code:                     "pa_IN",
 		Language:                 "pa",
 		LanguageISO3:             "pan",
@@ -3676,7 +3676,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ",",
 		NumberNegativePattern:    "-n",
 	},
-	"pl_PL": &Locale{
+	"pl_PL": {
 		Code:                     "pl_PL",
 		Language:                 "pl",
 		LanguageISO3:             "pol",
@@ -3701,7 +3701,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     " ",
 		NumberNegativePattern:    "-n",
 	},
-	"prs_AF": &Locale{
+	"prs_AF": {
 		Code:                     "prs_AF",
 		Language:                 "prs",
 		LanguageISO3:             "prs",
@@ -3726,7 +3726,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ".",
 		NumberNegativePattern:    "n-",
 	},
-	"ps_AF": &Locale{
+	"ps_AF": {
 		Code:                     "ps_AF",
 		Language:                 "ps",
 		LanguageISO3:             "pus",
@@ -3751,7 +3751,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     "،",
 		NumberNegativePattern:    "n-",
 	},
-	"pt_BR": &Locale{
+	"pt_BR": {
 		Code:                     "pt_BR",
 		Language:                 "pt",
 		LanguageISO3:             "por",
@@ -3776,7 +3776,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ".",
 		NumberNegativePattern:    "-n",
 	},
-	"pt_PT": &Locale{
+	"pt_PT": {
 		Code:                     "pt_PT",
 		Language:                 "pt",
 		LanguageISO3:             "por",
@@ -3801,7 +3801,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ".",
 		NumberNegativePattern:    "-n",
 	},
-	"qut_GT": &Locale{
+	"qut_GT": {
 		Code:                     "qut_GT",
 		Language:                 "qut",
 		LanguageISO3:             "qut",
@@ -3826,7 +3826,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ",",
 		NumberNegativePattern:    "-n",
 	},
-	"quz_BO": &Locale{
+	"quz_BO": {
 		Code:                     "quz_BO",
 		Language:                 "quz",
 		LanguageISO3:             "qub",
@@ -3851,7 +3851,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ".",
 		NumberNegativePattern:    "-n",
 	},
-	"quz_EC": &Locale{
+	"quz_EC": {
 		Code:                     "quz_EC",
 		Language:                 "quz",
 		LanguageISO3:             "que",
@@ -3876,7 +3876,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ".",
 		NumberNegativePattern:    "-n",
 	},
-	"quz_PE": &Locale{
+	"quz_PE": {
 		Code:                     "quz_PE",
 		Language:                 "quz",
 		LanguageISO3:             "qup",
@@ -3901,7 +3901,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ",",
 		NumberNegativePattern:    "-n",
 	},
-	"rm_CH": &Locale{
+	"rm_CH": {
 		Code:                     "rm_CH",
 		Language:                 "rm",
 		LanguageISO3:             "roh",
@@ -3926,7 +3926,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     "'",
 		NumberNegativePattern:    "-n",
 	},
-	"ro_RO": &Locale{
+	"ro_RO": {
 		Code:                     "ro_RO",
 		Language:                 "ro",
 		LanguageISO3:             "ron",
@@ -3951,7 +3951,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ".",
 		NumberNegativePattern:    "-n",
 	},
-	"ru_RU": &Locale{
+	"ru_RU": {
 		Code:                     "ru_RU",
 		Language:                 "ru",
 		LanguageISO3:             "rus",
@@ -3976,7 +3976,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     " ",
 		NumberNegativePattern:    "-n",
 	},
-	"rw_RW": &Locale{
+	"rw_RW": {
 		Code:                     "rw_RW",
 		Language:                 "rw",
 		LanguageISO3:             "kin",
@@ -4001,7 +4001,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     " ",
 		NumberNegativePattern:    "-n",
 	},
-	"sa_IN": &Locale{
+	"sa_IN": {
 		Code:                     "sa_IN",
 		Language:                 "sa",
 		LanguageISO3:             "san",
@@ -4026,7 +4026,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ",",
 		NumberNegativePattern:    "-n",
 	},
-	"sah_RU": &Locale{
+	"sah_RU": {
 		Code:                     "sah_RU",
 		Language:                 "sah",
 		LanguageISO3:             "sah",
@@ -4051,7 +4051,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     " ",
 		NumberNegativePattern:    "-n",
 	},
-	"se_FI": &Locale{
+	"se_FI": {
 		Code:                     "se_FI",
 		Language:                 "se",
 		LanguageISO3:             "smg",
@@ -4076,7 +4076,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     " ",
 		NumberNegativePattern:    "-n",
 	},
-	"se_NO": &Locale{
+	"se_NO": {
 		Code:                     "se_NO",
 		Language:                 "se",
 		LanguageISO3:             "sme",
@@ -4101,7 +4101,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     " ",
 		NumberNegativePattern:    "-n",
 	},
-	"se_SE": &Locale{
+	"se_SE": {
 		Code:                     "se_SE",
 		Language:                 "se",
 		LanguageISO3:             "smf",
@@ -4126,7 +4126,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     " ",
 		NumberNegativePattern:    "-n",
 	},
-	"si_LK": &Locale{
+	"si_LK": {
 		Code:                     "si_LK",
 		Language:                 "si",
 		LanguageISO3:             "sin",
@@ -4151,7 +4151,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ",",
 		NumberNegativePattern:    "-n",
 	},
-	"sk_SK": &Locale{
+	"sk_SK": {
 		Code:                     "sk_SK",
 		Language:                 "sk",
 		LanguageISO3:             "slk",
@@ -4176,7 +4176,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     " ",
 		NumberNegativePattern:    "-n",
 	},
-	"sl_SI": &Locale{
+	"sl_SI": {
 		Code:                     "sl_SI",
 		Language:                 "sl",
 		LanguageISO3:             "slv",
@@ -4201,7 +4201,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ".",
 		NumberNegativePattern:    "-n",
 	},
-	"sma_NO": &Locale{
+	"sma_NO": {
 		Code:                     "sma_NO",
 		Language:                 "sma",
 		LanguageISO3:             "sma",
@@ -4226,7 +4226,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     " ",
 		NumberNegativePattern:    "-n",
 	},
-	"sma_SE": &Locale{
+	"sma_SE": {
 		Code:                     "sma_SE",
 		Language:                 "sma",
 		LanguageISO3:             "smb",
@@ -4251,7 +4251,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     " ",
 		NumberNegativePattern:    "-n",
 	},
-	"smj_NO": &Locale{
+	"smj_NO": {
 		Code:                     "smj_NO",
 		Language:                 "smj",
 		LanguageISO3:             "smj",
@@ -4276,7 +4276,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     " ",
 		NumberNegativePattern:    "-n",
 	},
-	"smj_SE": &Locale{
+	"smj_SE": {
 		Code:                     "smj_SE",
 		Language:                 "smj",
 		LanguageISO3:             "smk",
@@ -4301,7 +4301,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     " ",
 		NumberNegativePattern:    "-n",
 	},
-	"smn_FI": &Locale{
+	"smn_FI": {
 		Code:                     "smn_FI",
 		Language:                 "smn",
 		LanguageISO3:             "smn",
@@ -4326,7 +4326,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     " ",
 		NumberNegativePattern:    "-n",
 	},
-	"sms_FI": &Locale{
+	"sms_FI": {
 		Code:                     "sms_FI",
 		Language:                 "sms",
 		LanguageISO3:             "sms",
@@ -4351,7 +4351,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     " ",
 		NumberNegativePattern:    "-n",
 	},
-	"sq_AL": &Locale{
+	"sq_AL": {
 		Code:                     "sq_AL",
 		Language:                 "sq",
 		LanguageISO3:             "sqi",
@@ -4376,7 +4376,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ".",
 		NumberNegativePattern:    "-n",
 	},
-	"sr_Cyrl_BA": &Locale{
+	"sr_Cyrl_BA": {
 		Code:                     "sr_Cyrl_BA",
 		Language:                 "sr",
 		LanguageISO3:             "srn",
@@ -4401,7 +4401,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ".",
 		NumberNegativePattern:    "-n",
 	},
-	"sr_Cyrl_CS": &Locale{
+	"sr_Cyrl_CS": {
 		Code:                     "sr_Cyrl_CS",
 		Language:                 "sr",
 		LanguageISO3:             "srp",
@@ -4426,7 +4426,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ".",
 		NumberNegativePattern:    "-n",
 	},
-	"sr_Cyrl_ME": &Locale{
+	"sr_Cyrl_ME": {
 		Code:                     "sr_Cyrl_ME",
 		Language:                 "sr",
 		LanguageISO3:             "srp",
@@ -4451,7 +4451,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ".",
 		NumberNegativePattern:    "-n",
 	},
-	"sr_Cyrl_RS": &Locale{
+	"sr_Cyrl_RS": {
 		Code:                     "sr_Cyrl_RS",
 		Language:                 "sr",
 		LanguageISO3:             "srp",
@@ -4476,7 +4476,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ".",
 		NumberNegativePattern:    "-n",
 	},
-	"sr_Latn_BA": &Locale{
+	"sr_Latn_BA": {
 		Code:                     "sr_Latn_BA",
 		Language:                 "sr",
 		LanguageISO3:             "srs",
@@ -4501,7 +4501,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ".",
 		NumberNegativePattern:    "-n",
 	},
-	"sr_Latn_CS": &Locale{
+	"sr_Latn_CS": {
 		Code:                     "sr_Latn_CS",
 		Language:                 "sr",
 		LanguageISO3:             "srp",
@@ -4526,7 +4526,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ".",
 		NumberNegativePattern:    "-n",
 	},
-	"sr_Latn_ME": &Locale{
+	"sr_Latn_ME": {
 		Code:                     "sr_Latn_ME",
 		Language:                 "sr",
 		LanguageISO3:             "srp",
@@ -4551,7 +4551,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ".",
 		NumberNegativePattern:    "-n",
 	},
-	"sr_Latn_RS": &Locale{
+	"sr_Latn_RS": {
 		Code:                     "sr_Latn_RS",
 		Language:                 "sr",
 		LanguageISO3:             "srp",
@@ -4576,7 +4576,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ".",
 		NumberNegativePattern:    "-n",
 	},
-	"sv_FI": &Locale{
+	"sv_FI": {
 		Code:                     "sv_FI",
 		Language:                 "sv",
 		LanguageISO3:             "swe",
@@ -4601,7 +4601,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     " ",
 		NumberNegativePattern:    "-n",
 	},
-	"sv_SE": &Locale{
+	"sv_SE": {
 		Code:                     "sv_SE",
 		Language:                 "sv",
 		LanguageISO3:             "swe",
@@ -4626,7 +4626,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     " ",
 		NumberNegativePattern:    "-n",
 	},
-	"sw_KE": &Locale{
+	"sw_KE": {
 		Code:                     "sw_KE",
 		Language:                 "sw",
 		LanguageISO3:             "swa",
@@ -4651,7 +4651,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ",",
 		NumberNegativePattern:    "-n",
 	},
-	"syr_SY": &Locale{
+	"syr_SY": {
 		Code:                     "syr_SY",
 		Language:                 "syr",
 		LanguageISO3:             "syr",
@@ -4676,7 +4676,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ",",
 		NumberNegativePattern:    "-n",
 	},
-	"ta_IN": &Locale{
+	"ta_IN": {
 		Code:                     "ta_IN",
 		Language:                 "ta",
 		LanguageISO3:             "tam",
@@ -4701,7 +4701,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ",",
 		NumberNegativePattern:    "-n",
 	},
-	"te_IN": &Locale{
+	"te_IN": {
 		Code:                     "te_IN",
 		Language:                 "te",
 		LanguageISO3:             "tel",
@@ -4726,7 +4726,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ",",
 		NumberNegativePattern:    "-n",
 	},
-	"tg_Cyrl_TJ": &Locale{
+	"tg_Cyrl_TJ": {
 		Code:                     "tg_Cyrl_TJ",
 		Language:                 "tg",
 		LanguageISO3:             "tgk",
@@ -4751,7 +4751,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     " ",
 		NumberNegativePattern:    "-n",
 	},
-	"th_TH": &Locale{
+	"th_TH": {
 		Code:                     "th_TH",
 		Language:                 "th",
 		LanguageISO3:             "tha",
@@ -4776,7 +4776,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ",",
 		NumberNegativePattern:    "-n",
 	},
-	"tk_TM": &Locale{
+	"tk_TM": {
 		Code:                     "tk_TM",
 		Language:                 "tk",
 		LanguageISO3:             "tuk",
@@ -4801,7 +4801,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     " ",
 		NumberNegativePattern:    "-n",
 	},
-	"tn_ZA": &Locale{
+	"tn_ZA": {
 		Code:                     "tn_ZA",
 		Language:                 "tn",
 		LanguageISO3:             "tsn",
@@ -4826,7 +4826,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ",",
 		NumberNegativePattern:    "-n",
 	},
-	"tr_TR": &Locale{
+	"tr_TR": {
 		Code:                     "tr_TR",
 		Language:                 "tr",
 		LanguageISO3:             "tur",
@@ -4851,7 +4851,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ".",
 		NumberNegativePattern:    "-n",
 	},
-	"tt_RU": &Locale{
+	"tt_RU": {
 		Code:                     "tt_RU",
 		Language:                 "tt",
 		LanguageISO3:             "tat",
@@ -4876,7 +4876,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     " ",
 		NumberNegativePattern:    "-n",
 	},
-	"tzm_Latn_DZ": &Locale{
+	"tzm_Latn_DZ": {
 		Code:                     "tzm_Latn_DZ",
 		Language:                 "tzm",
 		LanguageISO3:             "tzm",
@@ -4901,7 +4901,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ".",
 		NumberNegativePattern:    "n-",
 	},
-	"ug_CN": &Locale{
+	"ug_CN": {
 		Code:                     "ug_CN",
 		Language:                 "ug",
 		LanguageISO3:             "uig",
@@ -4926,7 +4926,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ",",
 		NumberNegativePattern:    "-n",
 	},
-	"uk_UA": &Locale{
+	"uk_UA": {
 		Code:                     "uk_UA",
 		Language:                 "uk",
 		LanguageISO3:             "ukr",
@@ -4951,7 +4951,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     " ",
 		NumberNegativePattern:    "-n",
 	},
-	"ur_PK": &Locale{
+	"ur_PK": {
 		Code:                     "ur_PK",
 		Language:                 "ur",
 		LanguageISO3:             "urd",
@@ -4976,7 +4976,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ",",
 		NumberNegativePattern:    "-n",
 	},
-	"uz_Cyrl_UZ": &Locale{
+	"uz_Cyrl_UZ": {
 		Code:                     "uz_Cyrl_UZ",
 		Language:                 "uz",
 		LanguageISO3:             "uzb",
@@ -5001,7 +5001,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     " ",
 		NumberNegativePattern:    "-n",
 	},
-	"uz_Latn_UZ": &Locale{
+	"uz_Latn_UZ": {
 		Code:                     "uz_Latn_UZ",
 		Language:                 "uz",
 		LanguageISO3:             "uzb",
@@ -5026,7 +5026,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     " ",
 		NumberNegativePattern:    "-n",
 	},
-	"vi_VN": &Locale{
+	"vi_VN": {
 		Code:                     "vi_VN",
 		Language:                 "vi",
 		LanguageISO3:             "vie",
@@ -5051,7 +5051,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ".",
 		NumberNegativePattern:    "-n",
 	},
-	"wo_SN": &Locale{
+	"wo_SN": {
 		Code:                     "wo_SN",
 		Language:                 "wo",
 		LanguageISO3:             "wol",
@@ -5076,7 +5076,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     " ",
 		NumberNegativePattern:    "-n",
 	},
-	"xh_ZA": &Locale{
+	"xh_ZA": {
 		Code:                     "xh_ZA",
 		Language:                 "xh",
 		LanguageISO3:             "xho",
@@ -5101,7 +5101,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ",",
 		NumberNegativePattern:    "-n",
 	},
-	"yo_NG": &Locale{
+	"yo_NG": {
 		Code:                     "yo_NG",
 		Language:                 "yo",
 		LanguageISO3:             "yor",
@@ -5126,7 +5126,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ",",
 		NumberNegativePattern:    "-n",
 	},
-	"zh_CN": &Locale{
+	"zh_CN": {
 		Code:                     "zh_CN",
 		Language:                 "zh",
 		LanguageISO3:             "zho",
@@ -5151,7 +5151,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ",",
 		NumberNegativePattern:    "-n",
 	},
-	"zh_HK": &Locale{
+	"zh_HK": {
 		Code:                     "zh_HK",
 		Language:                 "zh",
 		LanguageISO3:             "zho",
@@ -5176,7 +5176,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ",",
 		NumberNegativePattern:    "-n",
 	},
-	"zh_MO": &Locale{
+	"zh_MO": {
 		Code:                     "zh_MO",
 		Language:                 "zh",
 		LanguageISO3:             "zho",
@@ -5201,7 +5201,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ",",
 		NumberNegativePattern:    "-n",
 	},
-	"zh_SG": &Locale{
+	"zh_SG": {
 		Code:                     "zh_SG",
 		Language:                 "zh",
 		LanguageISO3:             "zho",
@@ -5226,7 +5226,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ",",
 		NumberNegativePattern:    "-n",
 	},
-	"zh_TW": &Locale{
+	"zh_TW": {
 		Code:                     "zh_TW",
 		Language:                 "zh",
 		LanguageISO3:             "zho",
@@ -5251,7 +5251,7 @@ var Locales = map[string]*Locale{
 		NumberGroupSeparator:     ",",
 		NumberNegativePattern:    "-n",
 	},
-	"zu_ZA": &Locale{
+	"zu_ZA": {
 		Code:                     "zu_ZA",
 		Language:                 "zu",
 		LanguageISO3:             "zul",
@@ -5279,627 +5279,627 @@ var Locales = map[string]*Locale{
 }
 
 var Languages = map[string]*Language{
-	"af": &Language{
+	"af": {
 		Code:        "af",
 		NativeName:  "Afrikaans",
 		EnglishName: "Afrikaans",
 	},
-	"am": &Language{
+	"am": {
 		Code:        "am",
 		NativeName:  "አማርኛ",
 		EnglishName: "Amharic",
 	},
-	"ar": &Language{
+	"ar": {
 		Code:        "ar",
 		NativeName:  "العربية",
 		EnglishName: "Arabic",
 	},
-	"arn": &Language{
+	"arn": {
 		Code:        "arn",
 		NativeName:  "Mapudungun",
 		EnglishName: "Mapudungun",
 	},
-	"as": &Language{
+	"as": {
 		Code:        "as",
 		NativeName:  "অসমীয়া",
 		EnglishName: "Assamese",
 	},
-	"az": &Language{
+	"az": {
 		Code:        "az",
 		NativeName:  "Azərbaycan­ılı",
 		EnglishName: "Azeri",
 	},
-	"ba": &Language{
+	"ba": {
 		Code:        "ba",
 		NativeName:  "Башҡорт",
 		EnglishName: "Bashkir",
 	},
-	"be": &Language{
+	"be": {
 		Code:        "be",
 		NativeName:  "Беларускі",
 		EnglishName: "Belarusian",
 	},
-	"bg": &Language{
+	"bg": {
 		Code:        "bg",
 		NativeName:  "български",
 		EnglishName: "Bulgarian",
 	},
-	"bn": &Language{
+	"bn": {
 		Code:        "bn",
 		NativeName:  "বাংলা",
 		EnglishName: "Bengali",
 	},
-	"bo": &Language{
+	"bo": {
 		Code:        "bo",
 		NativeName:  "བོད་ཡིག",
 		EnglishName: "Tibetan",
 	},
-	"br": &Language{
+	"br": {
 		Code:        "br",
 		NativeName:  "brezhoneg",
 		EnglishName: "Breton",
 	},
-	"bs": &Language{
+	"bs": {
 		Code:        "bs",
 		NativeName:  "босански",
 		EnglishName: "Bosnian (Cyrillic)",
 	},
-	"ca": &Language{
+	"ca": {
 		Code:        "ca",
 		NativeName:  "català",
 		EnglishName: "Catalan",
 	},
-	"co": &Language{
+	"co": {
 		Code:        "co",
 		NativeName:  "Corsu",
 		EnglishName: "Corsican",
 	},
-	"cs": &Language{
+	"cs": {
 		Code:        "cs",
 		NativeName:  "čeština",
 		EnglishName: "Czech",
 	},
-	"cy": &Language{
+	"cy": {
 		Code:        "cy",
 		NativeName:  "Cymraeg",
 		EnglishName: "Welsh",
 	},
-	"da": &Language{
+	"da": {
 		Code:        "da",
 		NativeName:  "dansk",
 		EnglishName: "Danish",
 	},
-	"de": &Language{
+	"de": {
 		Code:        "de",
 		NativeName:  "Deutsch",
 		EnglishName: "German",
 	},
-	"dsb": &Language{
+	"dsb": {
 		Code:        "dsb",
 		NativeName:  "dolnoserbšćina",
 		EnglishName: "Lower Sorbian",
 	},
-	"dv": &Language{
+	"dv": {
 		Code:        "dv",
 		NativeName:  "ދިވެހިބަސް",
 		EnglishName: "Divehi",
 	},
-	"el": &Language{
+	"el": {
 		Code:        "el",
 		NativeName:  "Ελληνικά",
 		EnglishName: "Greek",
 	},
-	"en": &Language{
+	"en": {
 		Code:        "en",
 		NativeName:  "English",
 		EnglishName: "English",
 	},
-	"es": &Language{
+	"es": {
 		Code:        "es",
 		NativeName:  "español",
 		EnglishName: "Spanish",
 	},
-	"et": &Language{
+	"et": {
 		Code:        "et",
 		NativeName:  "eesti",
 		EnglishName: "Estonian",
 	},
-	"eu": &Language{
+	"eu": {
 		Code:        "eu",
 		NativeName:  "euskara",
 		EnglishName: "Basque",
 	},
-	"fa": &Language{
+	"fa": {
 		Code:        "fa",
 		NativeName:  "فارسى",
 		EnglishName: "Persian",
 	},
-	"fi": &Language{
+	"fi": {
 		Code:        "fi",
 		NativeName:  "suomi",
 		EnglishName: "Finnish",
 	},
-	"fil": &Language{
+	"fil": {
 		Code:        "fil",
 		NativeName:  "Filipino",
 		EnglishName: "Filipino",
 	},
-	"fo": &Language{
+	"fo": {
 		Code:        "fo",
 		NativeName:  "føroyskt",
 		EnglishName: "Faroese",
 	},
-	"fr": &Language{
+	"fr": {
 		Code:        "fr",
 		NativeName:  "français",
 		EnglishName: "French",
 	},
-	"fy": &Language{
+	"fy": {
 		Code:        "fy",
 		NativeName:  "Frysk",
 		EnglishName: "Frisian",
 	},
-	"ga": &Language{
+	"ga": {
 		Code:        "ga",
 		NativeName:  "Gaeilge",
 		EnglishName: "Irish",
 	},
-	"gd": &Language{
+	"gd": {
 		Code:        "gd",
 		NativeName:  "Gàidhlig",
 		EnglishName: "Scottish Gaelic",
 	},
-	"gl": &Language{
+	"gl": {
 		Code:        "gl",
 		NativeName:  "galego",
 		EnglishName: "Galician",
 	},
-	"gsw": &Language{
+	"gsw": {
 		Code:        "gsw",
 		NativeName:  "Elsässisch",
 		EnglishName: "Alsatian",
 	},
-	"gu": &Language{
+	"gu": {
 		Code:        "gu",
 		NativeName:  "ગુજરાતી",
 		EnglishName: "Gujarati",
 	},
-	"ha": &Language{
+	"ha": {
 		Code:        "ha",
 		NativeName:  "Hausa",
 		EnglishName: "Hausa",
 	},
-	"he": &Language{
+	"he": {
 		Code:        "he",
 		NativeName:  "עברית",
 		EnglishName: "Hebrew",
 	},
-	"hi": &Language{
+	"hi": {
 		Code:        "hi",
 		NativeName:  "हिंदी",
 		EnglishName: "Hindi",
 	},
-	"hr": &Language{
+	"hr": {
 		Code:        "hr",
 		NativeName:  "hrvatski",
 		EnglishName: "Croatian",
 	},
-	"hsb": &Language{
+	"hsb": {
 		Code:        "hsb",
 		NativeName:  "hornjoserbšćina",
 		EnglishName: "Upper Sorbian",
 	},
-	"hu": &Language{
+	"hu": {
 		Code:        "hu",
 		NativeName:  "magyar",
 		EnglishName: "Hungarian",
 	},
-	"hy": &Language{
+	"hy": {
 		Code:        "hy",
 		NativeName:  "Հայերեն",
 		EnglishName: "Armenian",
 	},
-	"id": &Language{
+	"id": {
 		Code:        "id",
 		NativeName:  "Bahasa Indonesia",
 		EnglishName: "Indonesian",
 	},
-	"ig": &Language{
+	"ig": {
 		Code:        "ig",
 		NativeName:  "Igbo",
 		EnglishName: "Igbo",
 	},
-	"ii": &Language{
+	"ii": {
 		Code:        "ii",
 		NativeName:  "ꆈꌠꁱꂷ",
 		EnglishName: "Yi",
 	},
-	"is": &Language{
+	"is": {
 		Code:        "is",
 		NativeName:  "íslenska",
 		EnglishName: "Icelandic",
 	},
-	"it": &Language{
+	"it": {
 		Code:        "it",
 		NativeName:  "italiano",
 		EnglishName: "Italian",
 	},
-	"iu": &Language{
+	"iu": {
 		Code:        "iu",
 		NativeName:  "Inuktitut",
 		EnglishName: "Inuktitut",
 	},
-	"iv": &Language{
+	"iv": {
 		Code:        "iv",
 		NativeName:  "Invariant Language (Invariant Country)",
 		EnglishName: "Invariant Language (Invariant Country)",
 	},
-	"ja": &Language{
+	"ja": {
 		Code:        "ja",
 		NativeName:  "日本語",
 		EnglishName: "Japanese",
 	},
-	"ka": &Language{
+	"ka": {
 		Code:        "ka",
 		NativeName:  "ქართული",
 		EnglishName: "Georgian",
 	},
-	"kk": &Language{
+	"kk": {
 		Code:        "kk",
 		NativeName:  "Қазақ",
 		EnglishName: "Kazakh",
 	},
-	"kl": &Language{
+	"kl": {
 		Code:        "kl",
 		NativeName:  "kalaallisut",
 		EnglishName: "Greenlandic",
 	},
-	"km": &Language{
+	"km": {
 		Code:        "km",
 		NativeName:  "ខ្មែរ",
 		EnglishName: "Khmer",
 	},
-	"kn": &Language{
+	"kn": {
 		Code:        "kn",
 		NativeName:  "ಕನ್ನಡ",
 		EnglishName: "Kannada",
 	},
-	"ko": &Language{
+	"ko": {
 		Code:        "ko",
 		NativeName:  "한국어",
 		EnglishName: "Korean",
 	},
-	"kok": &Language{
+	"kok": {
 		Code:        "kok",
 		NativeName:  "कोंकणी",
 		EnglishName: "Konkani",
 	},
-	"ky": &Language{
+	"ky": {
 		Code:        "ky",
 		NativeName:  "Кыргыз",
 		EnglishName: "Kyrgyz",
 	},
-	"lb": &Language{
+	"lb": {
 		Code:        "lb",
 		NativeName:  "Lëtzebuergesch",
 		EnglishName: "Luxembourgish",
 	},
-	"lo": &Language{
+	"lo": {
 		Code:        "lo",
 		NativeName:  "ລາວ",
 		EnglishName: "Lao",
 	},
-	"lt": &Language{
+	"lt": {
 		Code:        "lt",
 		NativeName:  "lietuvių",
 		EnglishName: "Lithuanian",
 	},
-	"lv": &Language{
+	"lv": {
 		Code:        "lv",
 		NativeName:  "latviešu",
 		EnglishName: "Latvian",
 	},
-	"mi": &Language{
+	"mi": {
 		Code:        "mi",
 		NativeName:  "Reo Māori",
 		EnglishName: "Maori",
 	},
-	"mk": &Language{
+	"mk": {
 		Code:        "mk",
 		NativeName:  "македонски јазик",
 		EnglishName: "Macedonian (FYROM)",
 	},
-	"ml": &Language{
+	"ml": {
 		Code:        "ml",
 		NativeName:  "മലയാളം",
 		EnglishName: "Malayalam",
 	},
-	"mn": &Language{
+	"mn": {
 		Code:        "mn",
 		NativeName:  "Монгол хэл",
 		EnglishName: "Mongolian",
 	},
-	"moh": &Language{
+	"moh": {
 		Code:        "moh",
 		NativeName:  "Kanien'kéha",
 		EnglishName: "Mohawk",
 	},
-	"mr": &Language{
+	"mr": {
 		Code:        "mr",
 		NativeName:  "मराठी",
 		EnglishName: "Marathi",
 	},
-	"ms": &Language{
+	"ms": {
 		Code:        "ms",
 		NativeName:  "Bahasa Melayu",
 		EnglishName: "Malay",
 	},
-	"mt": &Language{
+	"mt": {
 		Code:        "mt",
 		NativeName:  "Malti",
 		EnglishName: "Maltese",
 	},
-	"nb": &Language{
+	"nb": {
 		Code:        "nb",
 		NativeName:  "Norsk bokmål",
 		EnglishName: "Norwegian Bokmål",
 	},
-	"ne": &Language{
+	"ne": {
 		Code:        "ne",
 		NativeName:  "नेपाली",
 		EnglishName: "Nepali",
 	},
-	"nl": &Language{
+	"nl": {
 		Code:        "nl",
 		NativeName:  "Nederlands",
 		EnglishName: "Dutch",
 	},
-	"nn": &Language{
+	"nn": {
 		Code:        "nn",
 		NativeName:  "Nynorsk",
 		EnglishName: "Norwegian Nynorsk",
 	},
-	"no": &Language{
+	"no": {
 		Code:        "no",
 		NativeName:  "Norsk",
 		EnglishName: "Norwegian",
 	},
-	"nso": &Language{
+	"nso": {
 		Code:        "nso",
 		NativeName:  "Sesotho sa Leboa",
 		EnglishName: "Sesotho sa Leboa",
 	},
-	"oc": &Language{
+	"oc": {
 		Code:        "oc",
 		NativeName:  "Occitan",
 		EnglishName: "Occitan",
 	},
-	"or": &Language{
+	"or": {
 		Code:        "or",
 		NativeName:  "ଓଡ଼ିଆ",
 		EnglishName: "Oriya",
 	},
-	"pa": &Language{
+	"pa": {
 		Code:        "pa",
 		NativeName:  "ਪੰਜਾਬੀ",
 		EnglishName: "Punjabi",
 	},
-	"pl": &Language{
+	"pl": {
 		Code:        "pl",
 		NativeName:  "polski",
 		EnglishName: "Polish",
 	},
-	"prs": &Language{
+	"prs": {
 		Code:        "prs",
 		NativeName:  "درى",
 		EnglishName: "Dari",
 	},
-	"ps": &Language{
+	"ps": {
 		Code:        "ps",
 		NativeName:  "پښتو",
 		EnglishName: "Pashto",
 	},
-	"pt": &Language{
+	"pt": {
 		Code:        "pt",
 		NativeName:  "Português",
 		EnglishName: "Portuguese",
 	},
-	"qut": &Language{
+	"qut": {
 		Code:        "qut",
 		NativeName:  "K'iche",
 		EnglishName: "K'iche",
 	},
-	"quz": &Language{
+	"quz": {
 		Code:        "quz",
 		NativeName:  "runasimi",
 		EnglishName: "Quechua",
 	},
-	"rm": &Language{
+	"rm": {
 		Code:        "rm",
 		NativeName:  "Rumantsch",
 		EnglishName: "Romansh",
 	},
-	"ro": &Language{
+	"ro": {
 		Code:        "ro",
 		NativeName:  "română",
 		EnglishName: "Romanian",
 	},
-	"ru": &Language{
+	"ru": {
 		Code:        "ru",
 		NativeName:  "русский",
 		EnglishName: "Russian",
 	},
-	"rw": &Language{
+	"rw": {
 		Code:        "rw",
 		NativeName:  "Kinyarwanda",
 		EnglishName: "Kinyarwanda",
 	},
-	"sa": &Language{
+	"sa": {
 		Code:        "sa",
 		NativeName:  "संस्कृत",
 		EnglishName: "Sanskrit",
 	},
-	"sah": &Language{
+	"sah": {
 		Code:        "sah",
 		NativeName:  "саха",
 		EnglishName: "Yakut",
 	},
-	"se": &Language{
+	"se": {
 		Code:        "se",
 		NativeName:  "davvisámegiella",
 		EnglishName: "Sami (Northern)",
 	},
-	"si": &Language{
+	"si": {
 		Code:        "si",
 		NativeName:  "සිංහල",
 		EnglishName: "Sinhala",
 	},
-	"sk": &Language{
+	"sk": {
 		Code:        "sk",
 		NativeName:  "slovenčina",
 		EnglishName: "Slovak",
 	},
-	"sl": &Language{
+	"sl": {
 		Code:        "sl",
 		NativeName:  "slovenski",
 		EnglishName: "Slovenian",
 	},
-	"sma": &Language{
+	"sma": {
 		Code:        "sma",
 		NativeName:  "åarjelsaemiengiele",
 		EnglishName: "Sami (Southern)",
 	},
-	"smj": &Language{
+	"smj": {
 		Code:        "smj",
 		NativeName:  "julevusámegiella",
 		EnglishName: "Sami (Lule)",
 	},
-	"smn": &Language{
+	"smn": {
 		Code:        "smn",
 		NativeName:  "sämikielâ",
 		EnglishName: "Sami (Inari)",
 	},
-	"sms": &Language{
+	"sms": {
 		Code:        "sms",
 		NativeName:  "sääm´ǩiõll",
 		EnglishName: "Sami (Skolt)",
 	},
-	"sq": &Language{
+	"sq": {
 		Code:        "sq",
 		NativeName:  "shqipe",
 		EnglishName: "Albanian",
 	},
-	"sr": &Language{
+	"sr": {
 		Code:        "sr",
 		NativeName:  "српски",
 		EnglishName: "Serbian (Cyrillic)",
 	},
-	"sv": &Language{
+	"sv": {
 		Code:        "sv",
 		NativeName:  "svenska",
 		EnglishName: "Swedish",
 	},
-	"sw": &Language{
+	"sw": {
 		Code:        "sw",
 		NativeName:  "Kiswahili",
 		EnglishName: "Kiswahili",
 	},
-	"syr": &Language{
+	"syr": {
 		Code:        "syr",
 		NativeName:  "ܣܘܪܝܝܐ",
 		EnglishName: "Syriac",
 	},
-	"ta": &Language{
+	"ta": {
 		Code:        "ta",
 		NativeName:  "தமிழ்",
 		EnglishName: "Tamil",
 	},
-	"te": &Language{
+	"te": {
 		Code:        "te",
 		NativeName:  "తెలుగు",
 		EnglishName: "Telugu",
 	},
-	"tg": &Language{
+	"tg": {
 		Code:        "tg",
 		NativeName:  "Тоҷикӣ",
 		EnglishName: "Tajik",
 	},
-	"th": &Language{
+	"th": {
 		Code:        "th",
 		NativeName:  "ไทย",
 		EnglishName: "Thai",
 	},
-	"tk": &Language{
+	"tk": {
 		Code:        "tk",
 		NativeName:  "türkmençe",
 		EnglishName: "Turkmen",
 	},
-	"tn": &Language{
+	"tn": {
 		Code:        "tn",
 		NativeName:  "Setswana",
 		EnglishName: "Setswana",
 	},
-	"tr": &Language{
+	"tr": {
 		Code:        "tr",
 		NativeName:  "Türkçe",
 		EnglishName: "Turkish",
 	},
-	"tt": &Language{
+	"tt": {
 		Code:        "tt",
 		NativeName:  "Татар",
 		EnglishName: "Tatar",
 	},
-	"tzm": &Language{
+	"tzm": {
 		Code:        "tzm",
 		NativeName:  "Tamazight",
 		EnglishName: "Tamazight",
 	},
-	"ug": &Language{
+	"ug": {
 		Code:        "ug",
 		NativeName:  "ئۇيغۇرچە",
 		EnglishName: "Uyghur",
 	},
-	"uk": &Language{
+	"uk": {
 		Code:        "uk",
 		NativeName:  "українська",
 		EnglishName: "Ukrainian",
 	},
-	"ur": &Language{
+	"ur": {
 		Code:        "ur",
 		NativeName:  "اُردو",
 		EnglishName: "Urdu",
 	},
-	"uz": &Language{
+	"uz": {
 		Code:        "uz",
 		NativeName:  "U'zbek",
 		EnglishName: "Uzbek",
 	},
-	"vi": &Language{
+	"vi": {
 		Code:        "vi",
 		NativeName:  "Tiếng Việt",
 		EnglishName: "Vietnamese",
 	},
-	"wo": &Language{
+	"wo": {
 		Code:        "wo",
 		NativeName:  "Wolof",
 		EnglishName: "Wolof",
 	},
-	"xh": &Language{
+	"xh": {
 		Code:        "xh",
 		NativeName:  "isiXhosa",
 		EnglishName: "isiXhosa",
 	},
-	"yo": &Language{
+	"yo": {
 		Code:        "yo",
 		NativeName:  "Yoruba",
 		EnglishName: "Yoruba",
 	},
-	"zh": &Language{
+	"zh": {
 		Code:        "zh",
 		NativeName:  "中文(简体)",
 		EnglishName: "Chinese (Simplified)",
 	},
-	"zu": &Language{
+	"zu": {
 		Code:        "zu",
 		NativeName:  "isiZulu",
 		EnglishName: "isiZulu",
@@ -5907,637 +5907,637 @@ var Languages = map[string]*Language{
 }
 
 var Territories = map[string]*Territory{
-	"029": &Territory{
+	"029": {
 		Code:        "029",
 		NativeName:  "Caribbean",
 		EnglishName: "Caribbean",
 	},
-	"AE": &Territory{
+	"AE": {
 		Code:        "AE",
 		NativeName:  "الإمارات العربية المتحدة",
 		EnglishName: "U.A.E.",
 	},
-	"AF": &Territory{
+	"AF": {
 		Code:        "AF",
 		NativeName:  "افغانستان",
 		EnglishName: "Afghanistan",
 	},
-	"AL": &Territory{
+	"AL": {
 		Code:        "AL",
 		NativeName:  "Shqipëria",
 		EnglishName: "Albania",
 	},
-	"AM": &Territory{
+	"AM": {
 		Code:        "AM",
 		NativeName:  "Հայաստան",
 		EnglishName: "Armenia",
 	},
-	"AR": &Territory{
+	"AR": {
 		Code:        "AR",
 		NativeName:  "Argentina",
 		EnglishName: "Argentina",
 	},
-	"AT": &Territory{
+	"AT": {
 		Code:        "AT",
 		NativeName:  "Österreich",
 		EnglishName: "Austria",
 	},
-	"AU": &Territory{
+	"AU": {
 		Code:        "AU",
 		NativeName:  "Australia",
 		EnglishName: "Australia",
 	},
-	"AZ": &Territory{
+	"AZ": {
 		Code:        "AZ",
 		NativeName:  "Azərbaycan",
 		EnglishName: "Azerbaijan",
 	},
-	"BA": &Territory{
+	"BA": {
 		Code:        "BA",
 		NativeName:  "Bosna i Hercegovina",
 		EnglishName: "Bosnia and Herzegovina",
 	},
-	"BD": &Territory{
+	"BD": {
 		Code:        "BD",
 		NativeName:  "বাংলাদেশ",
 		EnglishName: "Bangladesh",
 	},
-	"BE": &Territory{
+	"BE": {
 		Code:        "BE",
 		NativeName:  "Belgique",
 		EnglishName: "Belgium",
 	},
-	"BG": &Territory{
+	"BG": {
 		Code:        "BG",
 		NativeName:  "България",
 		EnglishName: "Bulgaria",
 	},
-	"BH": &Territory{
+	"BH": {
 		Code:        "BH",
 		NativeName:  "البحرين",
 		EnglishName: "Bahrain",
 	},
-	"BN": &Territory{
+	"BN": {
 		Code:        "BN",
 		NativeName:  "Brunei Darussalam",
 		EnglishName: "Brunei Darussalam",
 	},
-	"BO": &Territory{
+	"BO": {
 		Code:        "BO",
 		NativeName:  "Bolivia Suyu",
 		EnglishName: "Bolivia",
 	},
-	"BR": &Territory{
+	"BR": {
 		Code:        "BR",
 		NativeName:  "Brasil",
 		EnglishName: "Brazil",
 	},
-	"BY": &Territory{
+	"BY": {
 		Code:        "BY",
 		NativeName:  "Беларусь",
 		EnglishName: "Belarus",
 	},
-	"BZ": &Territory{
+	"BZ": {
 		Code:        "BZ",
 		NativeName:  "Belize",
 		EnglishName: "Belize",
 	},
-	"CA": &Territory{
+	"CA": {
 		Code:        "CA",
 		NativeName:  "ᑲᓇᑕ",
 		EnglishName: "Canada",
 	},
-	"CH": &Territory{
+	"CH": {
 		Code:        "CH",
 		NativeName:  "Svizra",
 		EnglishName: "Switzerland",
 	},
-	"CL": &Territory{
+	"CL": {
 		Code:        "CL",
 		NativeName:  "Chile",
 		EnglishName: "Chile",
 	},
-	"CN": &Territory{
+	"CN": {
 		Code:        "CN",
 		NativeName:  "ཀྲུང་ཧྭ་མི་དམངས་སྤྱི་མཐུན་རྒྱལ་ཁབ།",
 		EnglishName: "People's Republic of China",
 	},
-	"CO": &Territory{
+	"CO": {
 		Code:        "CO",
 		NativeName:  "Colombia",
 		EnglishName: "Colombia",
 	},
-	"CR": &Territory{
+	"CR": {
 		Code:        "CR",
 		NativeName:  "Costa Rica",
 		EnglishName: "Costa Rica",
 	},
-	"CS": &Territory{
+	"CS": {
 		Code:        "CS",
 		NativeName:  "Srbija i Crna Gora (Prethodno)",
 		EnglishName: "Serbia and Montenegro (Former)",
 	},
-	"CZ": &Territory{
+	"CZ": {
 		Code:        "CZ",
 		NativeName:  "Česká republika",
 		EnglishName: "Czech Republic",
 	},
-	"DE": &Territory{
+	"DE": {
 		Code:        "DE",
 		NativeName:  "Deutschland",
 		EnglishName: "Germany",
 	},
-	"DK": &Territory{
+	"DK": {
 		Code:        "DK",
 		NativeName:  "Danmark",
 		EnglishName: "Denmark",
 	},
-	"DO": &Territory{
+	"DO": {
 		Code:        "DO",
 		NativeName:  "República Dominicana",
 		EnglishName: "Dominican Republic",
 	},
-	"DZ": &Territory{
+	"DZ": {
 		Code:        "DZ",
 		NativeName:  "Djazaïr",
 		EnglishName: "Algeria",
 	},
-	"EC": &Territory{
+	"EC": {
 		Code:        "EC",
 		NativeName:  "Ecuador Suyu",
 		EnglishName: "Ecuador",
 	},
-	"EE": &Territory{
+	"EE": {
 		Code:        "EE",
 		NativeName:  "Eesti",
 		EnglishName: "Estonia",
 	},
-	"EG": &Territory{
+	"EG": {
 		Code:        "EG",
 		NativeName:  "مصر",
 		EnglishName: "Egypt",
 	},
-	"ES": &Territory{
+	"ES": {
 		Code:        "ES",
 		NativeName:  "Espanya",
 		EnglishName: "Spain",
 	},
-	"ET": &Territory{
+	"ET": {
 		Code:        "ET",
 		NativeName:  "ኢትዮጵያ",
 		EnglishName: "Ethiopia",
 	},
-	"FI": &Territory{
+	"FI": {
 		Code:        "FI",
 		NativeName:  "Suomi",
 		EnglishName: "Finland",
 	},
-	"FO": &Territory{
+	"FO": {
 		Code:        "FO",
 		NativeName:  "Føroyar",
 		EnglishName: "Faroe Islands",
 	},
-	"FR": &Territory{
+	"FR": {
 		Code:        "FR",
 		NativeName:  "France",
 		EnglishName: "France",
 	},
-	"GB": &Territory{
+	"GB": {
 		Code:        "GB",
 		NativeName:  "y Deyrnas Unedig",
 		EnglishName: "United Kingdom",
 	},
-	"GE": &Territory{
+	"GE": {
 		Code:        "GE",
 		NativeName:  "საქართველო",
 		EnglishName: "Georgia",
 	},
-	"GL": &Territory{
+	"GL": {
 		Code:        "GL",
 		NativeName:  "Kalaallit Nunaat",
 		EnglishName: "Greenland",
 	},
-	"GR": &Territory{
+	"GR": {
 		Code:        "GR",
 		NativeName:  "Ελλάδα",
 		EnglishName: "Greece",
 	},
-	"GT": &Territory{
+	"GT": {
 		Code:        "GT",
 		NativeName:  "Guatemala",
 		EnglishName: "Guatemala",
 	},
-	"HK": &Territory{
+	"HK": {
 		Code:        "HK",
 		NativeName:  "香港特別行政區",
 		EnglishName: "Hong Kong S.A.R.",
 	},
-	"HN": &Territory{
+	"HN": {
 		Code:        "HN",
 		NativeName:  "Honduras",
 		EnglishName: "Honduras",
 	},
-	"HR": &Territory{
+	"HR": {
 		Code:        "HR",
 		NativeName:  "Hrvatska",
 		EnglishName: "Croatia",
 	},
-	"HU": &Territory{
+	"HU": {
 		Code:        "HU",
 		NativeName:  "Magyarország",
 		EnglishName: "Hungary",
 	},
-	"ID": &Territory{
+	"ID": {
 		Code:        "ID",
 		NativeName:  "Indonesia",
 		EnglishName: "Indonesia",
 	},
-	"IE": &Territory{
+	"IE": {
 		Code:        "IE",
 		NativeName:  "Éire",
 		EnglishName: "Ireland",
 	},
-	"IL": &Territory{
+	"IL": {
 		Code:        "IL",
 		NativeName:  "ישראל",
 		EnglishName: "Israel",
 	},
-	"IN": &Territory{
+	"IN": {
 		Code:        "IN",
 		NativeName:  "भारत",
 		EnglishName: "India",
 	},
-	"IQ": &Territory{
+	"IQ": {
 		Code:        "IQ",
 		NativeName:  "العراق",
 		EnglishName: "Iraq",
 	},
-	"IR": &Territory{
+	"IR": {
 		Code:        "IR",
 		NativeName:  "ایران",
 		EnglishName: "Iran",
 	},
-	"IS": &Territory{
+	"IS": {
 		Code:        "IS",
 		NativeName:  "Ísland",
 		EnglishName: "Iceland",
 	},
-	"IT": &Territory{
+	"IT": {
 		Code:        "IT",
 		NativeName:  "Italia",
 		EnglishName: "Italy",
 	},
-	"JM": &Territory{
+	"JM": {
 		Code:        "JM",
 		NativeName:  "Jamaica",
 		EnglishName: "Jamaica",
 	},
-	"JO": &Territory{
+	"JO": {
 		Code:        "JO",
 		NativeName:  "الأردن",
 		EnglishName: "Jordan",
 	},
-	"JP": &Territory{
+	"JP": {
 		Code:        "JP",
 		NativeName:  "日本",
 		EnglishName: "Japan",
 	},
-	"KE": &Territory{
+	"KE": {
 		Code:        "KE",
 		NativeName:  "Kenya",
 		EnglishName: "Kenya",
 	},
-	"KG": &Territory{
+	"KG": {
 		Code:        "KG",
 		NativeName:  "Кыргызстан",
 		EnglishName: "Kyrgyzstan",
 	},
-	"KH": &Territory{
+	"KH": {
 		Code:        "KH",
 		NativeName:  "កម្ពុជា",
 		EnglishName: "Cambodia",
 	},
-	"KR": &Territory{
+	"KR": {
 		Code:        "KR",
 		NativeName:  "대한민국",
 		EnglishName: "Korea",
 	},
-	"KW": &Territory{
+	"KW": {
 		Code:        "KW",
 		NativeName:  "الكويت",
 		EnglishName: "Kuwait",
 	},
-	"KZ": &Territory{
+	"KZ": {
 		Code:        "KZ",
 		NativeName:  "Қазақстан",
 		EnglishName: "Kazakhstan",
 	},
-	"LA": &Territory{
+	"LA": {
 		Code:        "LA",
 		NativeName:  "ສ.ປ.ປ. ລາວ",
 		EnglishName: "Lao P.D.R.",
 	},
-	"LB": &Territory{
+	"LB": {
 		Code:        "LB",
 		NativeName:  "لبنان",
 		EnglishName: "Lebanon",
 	},
-	"LI": &Territory{
+	"LI": {
 		Code:        "LI",
 		NativeName:  "Liechtenstein",
 		EnglishName: "Liechtenstein",
 	},
-	"LK": &Territory{
+	"LK": {
 		Code:        "LK",
 		NativeName:  "ශ්‍රී ලංකා",
 		EnglishName: "Sri Lanka",
 	},
-	"LT": &Territory{
+	"LT": {
 		Code:        "LT",
 		NativeName:  "Lietuva",
 		EnglishName: "Lithuania",
 	},
-	"LU": &Territory{
+	"LU": {
 		Code:        "LU",
 		NativeName:  "Luxembourg",
 		EnglishName: "Luxembourg",
 	},
-	"LV": &Territory{
+	"LV": {
 		Code:        "LV",
 		NativeName:  "Latvija",
 		EnglishName: "Latvia",
 	},
-	"LY": &Territory{
+	"LY": {
 		Code:        "LY",
 		NativeName:  "ليبيا",
 		EnglishName: "Libya",
 	},
-	"MA": &Territory{
+	"MA": {
 		Code:        "MA",
 		NativeName:  "المملكة المغربية",
 		EnglishName: "Morocco",
 	},
-	"MC": &Territory{
+	"MC": {
 		Code:        "MC",
 		NativeName:  "Principauté de Monaco",
 		EnglishName: "Principality of Monaco",
 	},
-	"ME": &Territory{
+	"ME": {
 		Code:        "ME",
 		NativeName:  "Crna Gora",
 		EnglishName: "Montenegro",
 	},
-	"MK": &Territory{
+	"MK": {
 		Code:        "MK",
 		NativeName:  "Македонија",
 		EnglishName: "Macedonia (FYROM)",
 	},
-	"MN": &Territory{
+	"MN": {
 		Code:        "MN",
 		NativeName:  "Монгол улс",
 		EnglishName: "Mongolia",
 	},
-	"MO": &Territory{
+	"MO": {
 		Code:        "MO",
 		NativeName:  "澳門特別行政區",
 		EnglishName: "Macao S.A.R.",
 	},
-	"MT": &Territory{
+	"MT": {
 		Code:        "MT",
 		NativeName:  "Malta",
 		EnglishName: "Malta",
 	},
-	"MV": &Territory{
+	"MV": {
 		Code:        "MV",
 		NativeName:  "ދިވެހި ރާއްޖެ",
 		EnglishName: "Maldives",
 	},
-	"MX": &Territory{
+	"MX": {
 		Code:        "MX",
 		NativeName:  "México",
 		EnglishName: "Mexico",
 	},
-	"MY": &Territory{
+	"MY": {
 		Code:        "MY",
 		NativeName:  "Malaysia",
 		EnglishName: "Malaysia",
 	},
-	"NG": &Territory{
+	"NG": {
 		Code:        "NG",
 		NativeName:  "Nigeria",
 		EnglishName: "Nigeria",
 	},
-	"NI": &Territory{
+	"NI": {
 		Code:        "NI",
 		NativeName:  "Nicaragua",
 		EnglishName: "Nicaragua",
 	},
-	"NL": &Territory{
+	"NL": {
 		Code:        "NL",
 		NativeName:  "Nederland",
 		EnglishName: "Netherlands",
 	},
-	"NO": &Territory{
+	"NO": {
 		Code:        "NO",
 		NativeName:  "Norge",
 		EnglishName: "Norway",
 	},
-	"NP": &Territory{
+	"NP": {
 		Code:        "NP",
 		NativeName:  "नेपाल",
 		EnglishName: "Nepal",
 	},
-	"NZ": &Territory{
+	"NZ": {
 		Code:        "NZ",
 		NativeName:  "Aotearoa",
 		EnglishName: "New Zealand",
 	},
-	"OM": &Territory{
+	"OM": {
 		Code:        "OM",
 		NativeName:  "عمان",
 		EnglishName: "Oman",
 	},
-	"PA": &Territory{
+	"PA": {
 		Code:        "PA",
 		NativeName:  "Panamá",
 		EnglishName: "Panama",
 	},
-	"PE": &Territory{
+	"PE": {
 		Code:        "PE",
 		NativeName:  "Peru Suyu",
 		EnglishName: "Peru",
 	},
-	"PH": &Territory{
+	"PH": {
 		Code:        "PH",
 		NativeName:  "Pilipinas",
 		EnglishName: "Philippines",
 	},
-	"PK": &Territory{
+	"PK": {
 		Code:        "PK",
 		NativeName:  "پاکستان",
 		EnglishName: "Islamic Republic of Pakistan",
 	},
-	"PL": &Territory{
+	"PL": {
 		Code:        "PL",
 		NativeName:  "Polska",
 		EnglishName: "Poland",
 	},
-	"PR": &Territory{
+	"PR": {
 		Code:        "PR",
 		NativeName:  "Puerto Rico",
 		EnglishName: "Puerto Rico",
 	},
-	"PT": &Territory{
+	"PT": {
 		Code:        "PT",
 		NativeName:  "Portugal",
 		EnglishName: "Portugal",
 	},
-	"PY": &Territory{
+	"PY": {
 		Code:        "PY",
 		NativeName:  "Paraguay",
 		EnglishName: "Paraguay",
 	},
-	"QA": &Territory{
+	"QA": {
 		Code:        "QA",
 		NativeName:  "قطر",
 		EnglishName: "Qatar",
 	},
-	"RO": &Territory{
+	"RO": {
 		Code:        "RO",
 		NativeName:  "România",
 		EnglishName: "Romania",
 	},
-	"RS": &Territory{
+	"RS": {
 		Code:        "RS",
 		NativeName:  "Srbija",
 		EnglishName: "Serbia",
 	},
-	"RU": &Territory{
+	"RU": {
 		Code:        "RU",
 		NativeName:  "Россия",
 		EnglishName: "Russia",
 	},
-	"RW": &Territory{
+	"RW": {
 		Code:        "RW",
 		NativeName:  "Rwanda",
 		EnglishName: "Rwanda",
 	},
-	"SA": &Territory{
+	"SA": {
 		Code:        "SA",
 		NativeName:  "المملكة العربية السعودية",
 		EnglishName: "Saudi Arabia",
 	},
-	"SE": &Territory{
+	"SE": {
 		Code:        "SE",
 		NativeName:  "Sverige",
 		EnglishName: "Sweden",
 	},
-	"SG": &Territory{
+	"SG": {
 		Code:        "SG",
 		NativeName:  "新加坡",
 		EnglishName: "Singapore",
 	},
-	"SI": &Territory{
+	"SI": {
 		Code:        "SI",
 		NativeName:  "Slovenija",
 		EnglishName: "Slovenia",
 	},
-	"SK": &Territory{
+	"SK": {
 		Code:        "SK",
 		NativeName:  "Slovenská republika",
 		EnglishName: "Slovakia",
 	},
-	"SN": &Territory{
+	"SN": {
 		Code:        "SN",
 		NativeName:  "Sénégal",
 		EnglishName: "Senegal",
 	},
-	"SV": &Territory{
+	"SV": {
 		Code:        "SV",
 		NativeName:  "El Salvador",
 		EnglishName: "El Salvador",
 	},
-	"SY": &Territory{
+	"SY": {
 		Code:        "SY",
 		NativeName:  "سوريا",
 		EnglishName: "Syria",
 	},
-	"TH": &Territory{
+	"TH": {
 		Code:        "TH",
 		NativeName:  "ไทย",
 		EnglishName: "Thailand",
 	},
-	"TJ": &Territory{
+	"TJ": {
 		Code:        "TJ",
 		NativeName:  "Тоҷикистон",
 		EnglishName: "Tajikistan",
 	},
-	"TM": &Territory{
+	"TM": {
 		Code:        "TM",
 		NativeName:  "Türkmenistan",
 		EnglishName: "Turkmenistan",
 	},
-	"TN": &Territory{
+	"TN": {
 		Code:        "TN",
 		NativeName:  "تونس",
 		EnglishName: "Tunisia",
 	},
-	"TR": &Territory{
+	"TR": {
 		Code:        "TR",
 		NativeName:  "Türkiye",
 		EnglishName: "Turkey",
 	},
-	"TT": &Territory{
+	"TT": {
 		Code:        "TT",
 		NativeName:  "Trinidad y Tobago",
 		EnglishName: "Trinidad and Tobago",
 	},
-	"TW": &Territory{
+	"TW": {
 		Code:        "TW",
 		NativeName:  "台灣",
 		EnglishName: "Taiwan",
 	},
-	"UA": &Territory{
+	"UA": {
 		Code:        "UA",
 		NativeName:  "Україна",
 		EnglishName: "Ukraine",
 	},
-	"US": &Territory{
+	"US": {
 		Code:        "US",
 		NativeName:  "United States",
 		EnglishName: "United States",
 	},
-	"UY": &Territory{
+	"UY": {
 		Code:        "UY",
 		NativeName:  "Uruguay",
 		EnglishName: "Uruguay",
 	},
-	"UZ": &Territory{
+	"UZ": {
 		Code:        "UZ",
 		NativeName:  "U'zbekiston Respublikasi",
 		EnglishName: "Uzbekistan",
 	},
-	"VE": &Territory{
+	"VE": {
 		Code:        "VE",
 		NativeName:  "Republica Bolivariana de Venezuela",
 		EnglishName: "Bolivarian Republic of Venezuela",
 	},
-	"VN": &Territory{
+	"VN": {
 		Code:        "VN",
 		NativeName:  "Việt Nam",
 		EnglishName: "Vietnam",
 	},
-	"YE": &Territory{
+	"YE": {
 		Code:        "YE",
 		NativeName:  "اليمن",
 		EnglishName: "Yemen",
 	},
-	"ZA": &Territory{
+	"ZA": {
 		Code:        "ZA",
 		NativeName:  "Aforika Borwa",
 		EnglishName: "South Africa",
 	},
-	"ZW": &Territory{
+	"ZW": {
 		Code:        "ZW",
 		NativeName:  "Zimbabwe",
 		EnglishName: "Zimbabwe",
@@ -6545,107 +6545,107 @@ var Territories = map[string]*Territory{
 }
 
 var Currencies = map[string]*Currency{
-	"AED": &Currency{Code: "AED", Symbol: "د.إ.‏"},
-	"AFN": &Currency{Code: "AFN", Symbol: "؋"},
-	"ALL": &Currency{Code: "ALL", Symbol: "Lek"},
-	"AMD": &Currency{Code: "AMD", Symbol: "դր."},
-	"ARS": &Currency{Code: "ARS", Symbol: "$"},
-	"AUD": &Currency{Code: "AUD", Symbol: "$"},
-	"AZN": &Currency{Code: "AZN", Symbol: "man."},
-	"BAM": &Currency{Code: "BAM", Symbol: "KM"},
-	"BDT": &Currency{Code: "BDT", Symbol: "৳"},
-	"BGN": &Currency{Code: "BGN", Symbol: "лв."},
-	"BHD": &Currency{Code: "BHD", Symbol: "د.ب.‏"},
-	"BND": &Currency{Code: "BND", Symbol: "$"},
-	"BOB": &Currency{Code: "BOB", Symbol: "$b"},
-	"BRL": &Currency{Code: "BRL", Symbol: "R$"},
-	"BYR": &Currency{Code: "BYR", Symbol: "р."},
-	"BZD": &Currency{Code: "BZD", Symbol: "BZ$"},
-	"CAD": &Currency{Code: "CAD", Symbol: "$"},
-	"CHF": &Currency{Code: "CHF", Symbol: "fr."},
-	"CLP": &Currency{Code: "CLP", Symbol: "$"},
-	"CNY": &Currency{Code: "CNY", Symbol: "¥"},
-	"COP": &Currency{Code: "COP", Symbol: "$"},
-	"CRC": &Currency{Code: "CRC", Symbol: "₡"},
-	"CSD": &Currency{Code: "CSD", Symbol: "Din."},
-	"CZK": &Currency{Code: "CZK", Symbol: "Kč"},
-	"DKK": &Currency{Code: "DKK", Symbol: "kr."},
-	"DOP": &Currency{Code: "DOP", Symbol: "RD$"},
-	"DZD": &Currency{Code: "DZD", Symbol: "DZD"},
-	"EEK": &Currency{Code: "EEK", Symbol: "kr"},
-	"EGP": &Currency{Code: "EGP", Symbol: "ج.م.‏"},
-	"ETB": &Currency{Code: "ETB", Symbol: "ETB"},
-	"EUR": &Currency{Code: "EUR", Symbol: "€"},
-	"GBP": &Currency{Code: "GBP", Symbol: "£"},
-	"GEL": &Currency{Code: "GEL", Symbol: "Lari"},
-	"GTQ": &Currency{Code: "GTQ", Symbol: "Q"},
-	"HKD": &Currency{Code: "HKD", Symbol: "HK$"},
-	"HNL": &Currency{Code: "HNL", Symbol: "L."},
-	"HRK": &Currency{Code: "HRK", Symbol: "kn"},
-	"HUF": &Currency{Code: "HUF", Symbol: "Ft"},
-	"IDR": &Currency{Code: "IDR", Symbol: "Rp"},
-	"ILS": &Currency{Code: "ILS", Symbol: "₪"},
-	"INR": &Currency{Code: "INR", Symbol: "रु"},
-	"IQD": &Currency{Code: "IQD", Symbol: "د.ع.‏"},
-	"IRR": &Currency{Code: "IRR", Symbol: "ريال"},
-	"ISK": &Currency{Code: "ISK", Symbol: "kr."},
-	"JMD": &Currency{Code: "JMD", Symbol: "J$"},
-	"JOD": &Currency{Code: "JOD", Symbol: "د.ا.‏"},
-	"JPY": &Currency{Code: "JPY", Symbol: "¥"},
-	"KES": &Currency{Code: "KES", Symbol: "S"},
-	"KGS": &Currency{Code: "KGS", Symbol: "сом"},
-	"KHR": &Currency{Code: "KHR", Symbol: "៛"},
-	"KRW": &Currency{Code: "KRW", Symbol: "₩"},
-	"KWD": &Currency{Code: "KWD", Symbol: "د.ك.‏"},
-	"KZT": &Currency{Code: "KZT", Symbol: "Т"},
-	"LAK": &Currency{Code: "LAK", Symbol: "₭"},
-	"LBP": &Currency{Code: "LBP", Symbol: "ل.ل.‏"},
-	"LKR": &Currency{Code: "LKR", Symbol: "රු."},
-	"LTL": &Currency{Code: "LTL", Symbol: "Lt"},
-	"LVL": &Currency{Code: "LVL", Symbol: "Ls"},
-	"LYD": &Currency{Code: "LYD", Symbol: "د.ل.‏"},
-	"MAD": &Currency{Code: "MAD", Symbol: "د.م.‏"},
-	"MKD": &Currency{Code: "MKD", Symbol: "ден."},
-	"MNT": &Currency{Code: "MNT", Symbol: "₮"},
-	"MOP": &Currency{Code: "MOP", Symbol: "MOP"},
-	"MVR": &Currency{Code: "MVR", Symbol: "ރ."},
-	"MXN": &Currency{Code: "MXN", Symbol: "$"},
-	"MYR": &Currency{Code: "MYR", Symbol: "RM"},
-	"NIO": &Currency{Code: "NIO", Symbol: "N"},
-	"NOK": &Currency{Code: "NOK", Symbol: "kr"},
-	"NPR": &Currency{Code: "NPR", Symbol: "रु"},
-	"NZD": &Currency{Code: "NZD", Symbol: "$"},
-	"OMR": &Currency{Code: "OMR", Symbol: "ر.ع.‏"},
-	"PAB": &Currency{Code: "PAB", Symbol: "B/."},
-	"PEN": &Currency{Code: "PEN", Symbol: "S/."},
-	"PHP": &Currency{Code: "PHP", Symbol: "PhP"},
-	"PKR": &Currency{Code: "PKR", Symbol: "Rs"},
-	"PLN": &Currency{Code: "PLN", Symbol: "zł"},
-	"PYG": &Currency{Code: "PYG", Symbol: "Gs"},
-	"QAR": &Currency{Code: "QAR", Symbol: "ر.ق.‏"},
-	"RON": &Currency{Code: "RON", Symbol: "lei"},
-	"RSD": &Currency{Code: "RSD", Symbol: "Din."},
-	"RUB": &Currency{Code: "RUB", Symbol: "р."},
-	"RWF": &Currency{Code: "RWF", Symbol: "RWF"},
-	"SAR": &Currency{Code: "SAR", Symbol: "ر.س.‏"},
-	"SEK": &Currency{Code: "SEK", Symbol: "kr"},
-	"SGD": &Currency{Code: "SGD", Symbol: "$"},
-	"SYP": &Currency{Code: "SYP", Symbol: "ل.س.‏"},
-	"THB": &Currency{Code: "THB", Symbol: "฿"},
-	"TJS": &Currency{Code: "TJS", Symbol: "т.р."},
-	"TMT": &Currency{Code: "TMT", Symbol: "m."},
-	"TND": &Currency{Code: "TND", Symbol: "د.ت.‏"},
-	"TRY": &Currency{Code: "TRY", Symbol: "TL"},
-	"TTD": &Currency{Code: "TTD", Symbol: "TT$"},
-	"TWD": &Currency{Code: "TWD", Symbol: "NT$"},
-	"UAH": &Currency{Code: "UAH", Symbol: "₴"},
-	"USD": &Currency{Code: "USD", Symbol: "$"},
-	"UYU": &Currency{Code: "UYU", Symbol: "$U"},
-	"UZS": &Currency{Code: "UZS", Symbol: "so'm"},
-	"VEF": &Currency{Code: "VEF", Symbol: "Bs. F."},
-	"VND": &Currency{Code: "VND", Symbol: "₫"},
-	"XOF": &Currency{Code: "XOF", Symbol: "XOF"},
-	"YER": &Currency{Code: "YER", Symbol: "ر.ي.‏"},
-	"ZAR": &Currency{Code: "ZAR", Symbol: "R"},
-	"ZWL": &Currency{Code: "ZWL", Symbol: "Z$"},
+	"AED": {Code: "AED", Symbol: "د.إ.‏"},
+	"AFN": {Code: "AFN", Symbol: "؋"},
+	"ALL": {Code: "ALL", Symbol: "Lek"},
+	"AMD": {Code: "AMD", Symbol: "դր."},
+	"ARS": {Code: "ARS", Symbol: "$"},
+	"AUD": {Code: "AUD", Symbol: "$"},
+	"AZN": {Code: "AZN", Symbol: "man."},
+	"BAM": {Code: "BAM", Symbol: "KM"},
+	"BDT": {Code: "BDT", Symbol: "৳"},
+	"BGN": {Code: "BGN", Symbol: "лв."},
+	"BHD": {Code: "BHD", Symbol: "د.ب.‏"},
+	"BND": {Code: "BND", Symbol: "$"},
+	"BOB": {Code: "BOB", Symbol: "$b"},
+	"BRL": {Code: "BRL", Symbol: "R$"},
+	"BYR": {Code: "BYR", Symbol: "р."},
+	"BZD": {Code: "BZD", Symbol: "BZ$"},
+	"CAD": {Code: "CAD", Symbol: "$"},
+	"CHF": {Code: "CHF", Symbol: "fr."},
+	"CLP": {Code: "CLP", Symbol: "$"},
+	"CNY": {Code: "CNY", Symbol: "¥"},
+	"COP": {Code: "COP", Symbol: "$"},
+	"CRC": {Code: "CRC", Symbol: "₡"},
+	"CSD": {Code: "CSD", Symbol: "Din."},
+	"CZK": {Code: "CZK", Symbol: "Kč"},
+	"DKK": {Code: "DKK", Symbol: "kr."},
+	"DOP": {Code: "DOP", Symbol: "RD$"},
+	"DZD": {Code: "DZD", Symbol: "DZD"},
+	"EEK": {Code: "EEK", Symbol: "kr"},
+	"EGP": {Code: "EGP", Symbol: "ج.م.‏"},
+	"ETB": {Code: "ETB", Symbol: "ETB"},
+	"EUR": {Code: "EUR", Symbol: "€"},
+	"GBP": {Code: "GBP", Symbol: "£"},
+	"GEL": {Code: "GEL", Symbol: "Lari"},
+	"GTQ": {Code: "GTQ", Symbol: "Q"},
+	"HKD": {Code: "HKD", Symbol: "HK$"},
+	"HNL": {Code: "HNL", Symbol: "L."},
+	"HRK": {Code: "HRK", Symbol: "kn"},
+	"HUF": {Code: "HUF", Symbol: "Ft"},
+	"IDR": {Code: "IDR", Symbol: "Rp"},
+	"ILS": {Code: "ILS", Symbol: "₪"},
+	"INR": {Code: "INR", Symbol: "रु"},
+	"IQD": {Code: "IQD", Symbol: "د.ع.‏"},
+	"IRR": {Code: "IRR", Symbol: "ريال"},
+	"ISK": {Code: "ISK", Symbol: "kr."},
+	"JMD": {Code: "JMD", Symbol: "J$"},
+	"JOD": {Code: "JOD", Symbol: "د.ا.‏"},
+	"JPY": {Code: "JPY", Symbol: "¥"},
+	"KES": {Code: "KES", Symbol: "S"},
+	"KGS": {Code: "KGS", Symbol: "сом"},
+	"KHR": {Code: "KHR", Symbol: "៛"},
+	"KRW": {Code: "KRW", Symbol: "₩"},
+	"KWD": {Code: "KWD", Symbol: "د.ك.‏"},
+	"KZT": {Code: "KZT", Symbol: "Т"},
+	"LAK": {Code: "LAK", Symbol: "₭"},
+	"LBP": {Code: "LBP", Symbol: "ل.ل.‏"},
+	"LKR": {Code: "LKR", Symbol: "රු."},
+	"LTL": {Code: "LTL", Symbol: "Lt"},
+	"LVL": {Code: "LVL", Symbol: "Ls"},
+	"LYD": {Code: "LYD", Symbol: "د.ل.‏"},
+	"MAD": {Code: "MAD", Symbol: "د.م.‏"},
+	"MKD": {Code: "MKD", Symbol: "ден."},
+	"MNT": {Code: "MNT", Symbol: "₮"},
+	"MOP": {Code: "MOP", Symbol: "MOP"},
+	"MVR": {Code: "MVR", Symbol: "ރ."},
+	"MXN": {Code: "MXN", Symbol: "$"},
+	"MYR": {Code: "MYR", Symbol: "RM"},
+	"NIO": {Code: "NIO", Symbol: "N"},
+	"NOK": {Code: "NOK", Symbol: "kr"},
+	"NPR": {Code: "NPR", Symbol: "रु"},
+	"NZD": {Code: "NZD", Symbol: "$"},
+	"OMR": {Code: "OMR", Symbol: "ر.ع.‏"},
+	"PAB": {Code: "PAB", Symbol: "B/."},
+	"PEN": {Code: "PEN", Symbol: "S/."},
+	"PHP": {Code: "PHP", Symbol: "PhP"},
+	"PKR": {Code: "PKR", Symbol: "Rs"},
+	"PLN": {Code: "PLN", Symbol: "zł"},
+	"PYG": {Code: "PYG", Symbol: "Gs"},
+	"QAR": {Code: "QAR", Symbol: "ر.ق.‏"},
+	"RON": {Code: "RON", Symbol: "lei"},
+	"RSD": {Code: "RSD", Symbol: "Din."},
+	"RUB": {Code: "RUB", Symbol: "р."},
+	"RWF": {Code: "RWF", Symbol: "RWF"},
+	"SAR": {Code: "SAR", Symbol: "ر.س.‏"},
+	"SEK": {Code: "SEK", Symbol: "kr"},
+	"SGD": {Code: "SGD", Symbol: "$"},
+	"SYP": {Code: "SYP", Symbol: "ل.س.‏"},
+	"THB": {Code: "THB", Symbol: "฿"},
+	"TJS": {Code: "TJS", Symbol: "т.р."},
+	"TMT": {Code: "TMT", Symbol: "m."},
+	"TND": {Code: "TND", Symbol: "د.ت.‏"},
+	"TRY": {Code: "TRY", Symbol: "TL"},
+	"TTD": {Code: "TTD", Symbol: "TT$"},
+	"TWD": {Code: "TWD", Symbol: "NT$"},
+	"UAH": {Code: "UAH", Symbol: "₴"},
+	"USD": {Code: "USD", Symbol: "$"},
+	"UYU": {Code: "UYU", Symbol: "$U"},
+	"UZS": {Code: "UZS", Symbol: "so'm"},
+	"VEF": {Code: "VEF", Symbol: "Bs. F."},
+	"VND": {Code: "VND", Symbol: "₫"},
+	"XOF": {Code: "XOF", Symbol: "XOF"},
+	"YER": {Code: "YER", Symbol: "ر.ي.‏"},
+	"ZAR": {Code: "ZAR", Symbol: "R"},
+	"ZWL": {Code: "ZWL", Symbol: "Z$"},
 }

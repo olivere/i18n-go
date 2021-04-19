@@ -1,7 +1,6 @@
 package i18n
 
 import (
-	"fmt"
 	"testing"
 )
 
@@ -108,7 +107,7 @@ func TestMoneyStringer(t *testing.T) {
 	}
 
 	for _, f := range fixtures {
-		got := fmt.Sprintf("%s", f.m)
+		got := f.m.String()
 		if got != f.expected {
 			t.Errorf("expected %s, got %s", f.expected, got)
 		}
